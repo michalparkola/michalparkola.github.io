@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<title>
+			Michał Parkoła - Working Notes - Remote/Async
+        </title>
+        
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="/my.css">
+        
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous">
+        </script>
+	</head>
+	<body>
+		<div class="container">
+            <div id="header">...</div>
+			<script> $("#header").load("/header.html"); </script>
+            
+            <main>
+				<p>Don't just simulate the office online. Build towards a truly distributed collaborative knowledge work system.</p>
+
+				<p>A design hypothesis:</p>
+				<ol>
+					<li>The best intellectual work happens through a long series of tiny interactions with a well designed information system; not through individual, heroic effort.</li>
+					<li>Thus the quality of a team's work depends on the quality of their information system.</li>
+					<li>Work gets done by people interacting with each other through the info system and with the system itself. It's as if the system becomes another teammate - informing, supporting and coordinating the work.</li>
+					<li>Installing JIRA and Confluence is not nearly enough. We need the right structures and patterns of interactions.</li>
+				</ol>
+				<p>Some useful patterns for info systems to support collaborative knowledge work:</p>
+				<ol>
+					<li>Items should be *individually addressable* so that they can be directly referenced in all the contexts that they are relevant.</li>
+					<li>Titles should be narrow, concrete and meaningful. It should be instantly obvious what the item is about.</li>
+					<li>Content needs to be clear and unambiguous yet concise. Writing becomes a critical skill for all knowledge workers (including, or especially, hardcore engineers).</li>
+					<li>Items should be densely interlinked. Over time more value will come from the connections than individual items. If an item is not well connected it might as well not exist.</li>
+					<li>Items should clearly belong to one of a small set of categories. It should be extremely obvious (through frequent repetition and feedback) what each type means and how it relates to other items.</li>
+					<li>One useful approach to info system categories is @fortelabs PARA model consisting of Projects (bounded in scope and time), Areas of Responsibility (unbounded), Reference materials and Archive.</li>
+					<li>The info system for a high-performance team needs ongoing care: capturing new items, clarifying items as they're being worked on, sharpening titles, adding links, archiving old items, etc.</li>
+					<li>Whenever referencing a concept we should make the reference concrete by linking to the appropriate item (or adding it if it didn't exist). If items are not explicitly linked to their references the system "does not compile".</li>
+					<li>This has been a brain dump of some ideas I'm developing for people who want to help their teams be more effective in a remote-first context.</li>
+				</ol>
+				<p>References:</p>
+				<ol>
+					<li>Heavily inspired by many, many concepts accumulated over a decade of IT experience, but most recently by @andy_matuschak Evergreen Notes and @fortelabs Building a Second Brain.</li>
+					<li>The importance of good writing (and good editing!) for all kinds of knowledge work is only going to increase. See @patio11 and @david_perell for much more on this.</li>
+					<li><a href="https://twitter.com/michalparkola/status/1285009143900889097">Twitter thread introducing the ideas above.</a></li>
+				</ol>
+			</main>
+		</div>
+	</body>
+</html>
+
