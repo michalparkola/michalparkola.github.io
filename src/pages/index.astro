@@ -1,0 +1,263 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allBlogPosts = await getCollection('blog');
+const featuredPosts = allBlogPosts
+  .filter(post => post.data.featured)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const sortedPosts = allBlogPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Michał Parkoła">
+  <div class="hero">
+    <img 
+      class="profile-image" 
+      src="/images/2024/08/2024-03-GTA-spring-logo.png" 
+      alt="Michał Parkoła"
+    />
+    <h1>Michał Parkoła</h1>
+    <p class="tagline">
+      Senior Manager | Scaling Software Companies through People Development, Product Delivery & Process Optimization
+    </p>
+  </div>
+
+  {featuredPosts.length > 0 && (
+    <section class="featured-section">
+      <h2>Top 3</h2>
+      <div class="featured-grid">
+        {featuredPosts.map((post) => (
+          <article class="featured-card">
+            {post.data.heroImage && (
+              <img 
+                src={post.data.heroImage} 
+                alt={post.data.title}
+                class="card-image"
+              />
+            )}
+            <h3>
+              <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+            </h3>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="all-posts-section">
+    <h2>Everything</h2>
+    <div class="posts-grid">
+      {sortedPosts.map((post) => (
+        <article class="post-card">
+          {post.data.heroImage && (
+            <img 
+              src={post.data.heroImage} 
+              alt={post.data.title}
+              class="post-image"
+            />
+          )}
+          <div class="post-content">
+            <time datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString('en-us', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+            </time>
+            <h3>
+              <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+            </h3>
+            <p class="post-description">{post.data.description}</p>
+            {post.data.featured && (
+              <span class="featured-badge">Featured</span>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    margin: 3rem 0 4rem;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .tagline {
+    font-size: 1.25rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  
+  .featured-section, .all-posts-section {
+    margin: 4rem 0;
+  }
+  
+  .featured-section h2, .all-posts-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .featured-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .featured-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .featured-card h3 {
+    padding: 1.5rem;
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .featured-card a {
+    text-decoration: none;
+    color: #2c3e50;
+  }
+  
+  .featured-card a:hover {
+    color: #5C8D11;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .post-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: white;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  .post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .post-content {
+    padding: 1.5rem;
+    position: relative;
+  }
+  
+  .post-content time {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-content h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+  
+  .post-content a {
+    text-decoration: none;
+    color: #2c3e50;
+  }
+  
+  .post-content a:hover {
+    color: #5C8D11;
+  }
+  
+  .post-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .featured-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #5C8D11;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .tagline {
+      font-size: 1.1rem;
+    }
+    
+    .featured-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .posts-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .post-card {
+      margin: 0 -1rem;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+    }
+  }
+</style>
