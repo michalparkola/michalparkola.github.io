@@ -3,7 +3,7 @@ title: "💎 Make Your Communication Concise"
 description: "Use the pyramid principle Last week we covered the first C of good communication: Concrete Today it’s time for the second C: Concise 1) The best way to make your communication concise is to start w..."
 pubDate: 2020-10-20T20:20:00.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/10/omt-concise-pyramid-principle.jpeg"
+heroImage: "/images/omt-concise-pyramid-principle.jpeg"
 ---
 *Use the pyramid principle*
 

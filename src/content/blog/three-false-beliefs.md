@@ -3,7 +3,7 @@ title: "🧱 Three false beliefs"
 description: "The following are three harmful beliefs: 1. What I see is reality. 2. What I think is the truth. 3. What I want must be. What I believe is more accurate: 1. What I see is a tiny subset of reality, ..."
 pubDate: 2021-03-31T13:49:21.000Z
 updatedDate: 2021-03-31T13:51:04.000Z
-heroImage: "/images/wordpress/2021/03/ruin.jpeg"
+heroImage: "/images/ruin.jpeg"
 ---
 The following are three harmful beliefs:
 

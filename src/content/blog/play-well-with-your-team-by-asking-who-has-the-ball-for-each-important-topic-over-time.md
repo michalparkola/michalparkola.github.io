@@ -24,7 +24,8 @@ Some examples:
 * The Tech Lead is sick and there's an important architectural
   decision to be made: *Who should make it?*
 
-![](https://lh6.googleusercontent.com/eRba-GsVCfSMkGt04avCfbc0yCuharP2sqKns9BIXa-11-2CikXGhaJCZZsINf68lwpeVWH07pn13AZ_HJats4lO4vGgrmM9yPhvnR_l-yhetYRoYu-Zek4SlraV8Iw95npw-CjtqszvEXKWkAFuR-Q)
+<!-- Image temporarily unavailable: Who has the ball diagram 1 -->
+*[Diagram showing "Who has the ball" concept - temporarily unavailable]*
 
 In most teams we have various processes and
 tools to help us. We have roles and
@@ -54,7 +55,8 @@ situations where *you think* it is):
 > **Ask** the other people who are involved:
 > **Who has the ⚽️?**
 
-![](https://lh5.googleusercontent.com/VInjdVXdowSlA02MrPfkpjWVzg6-x6wQPNG-fBfsOgD-KzxKK2WvfPsqRD-QM74s8wJTeksb1tHL_NL2o56OMr0knKhDnGf_6aSTYtKnQsKvu035doNtGhtMyrlVlIlg_FSOW5Ex04xA4zluIkIhKYE)
+<!-- Image temporarily unavailable: Who has the ball diagram 2 -->
+*[Second diagram showing "Who has the ball" concept - temporarily unavailable]*
 
 The one with the ball is not the king of the universe. They
 might also not be the captain of that particular team.

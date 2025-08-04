@@ -3,7 +3,7 @@ title: "🤩 Don't rely on \"wow\" effects"
 description: "Live your differentiators If you want to create a successful product or service a common piece of advice I hear is to “wow” your customers. To deliver such moments of sheer delight that they will n..."
 pubDate: 2020-10-08T08:08:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/10/omt-12-fireworks.jpeg"
+heroImage: "/images/omt-12-fireworks.jpeg"
 ---
 *Live your differentiators*
 

@@ -3,7 +3,7 @@ title: "✉️ De-noise Your Email"
 description: "If you’ve been reading One Minute Tips for a while or you’ve just downloaded your Meeting Overload Rescue Kit you are familiar with the idea that good communication is concrete, concise and meaning..."
 pubDate: 2020-12-04T03:04:54.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/12/omt-027-envelope.jpeg"
+heroImage: "/images/omt-027-envelope.jpeg"
 ---
 If you’ve been reading One Minute Tips for a while or
 you’ve just downloaded your

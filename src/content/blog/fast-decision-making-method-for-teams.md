@@ -3,7 +3,7 @@ title: "🤝 A fast decision-making method for teams"
 description: "Here’s one way to get to the point faster and also to make group decisions that have a much higher chance of sticking. 1) Make your decisions in a concrete, concise and meaningful way A decision-ma..."
 pubDate: 2020-11-10T19:39:55.000Z
 updatedDate: 2021-04-09T21:22:20.000Z
-heroImage: "/images/wordpress/2020/11/omt-021-interlocking-hands.jpg"
+heroImage: "/images/omt-021-interlocking-hands.jpg"
 ---
 Here’s one way to **get to the point faster** and also to **make group decisions** that have a much higher chance of sticking.
 
@@ -97,7 +97,7 @@ idea where the disagreement is.
 
 ## Here’s a handy summary:
 
-[![](https://www.growtogether.academy/content/images/wordpress/2020/11/omt-021-soft-consensus.jpg?resize=900%2C571&ssl=1)](https://www.growtogether.academy/content/images/wordpress/2020/11/omt-021-soft-consensus.jpg?ssl=1&ref=localhost)
+[![Soft Consensus Method](/images/omt-021-soft-consensus.jpg)](/images/omt-021-soft-consensus.jpg)
 
 Hope it helps!  
   

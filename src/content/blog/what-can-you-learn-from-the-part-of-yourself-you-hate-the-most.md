@@ -38,6 +38,6 @@ and then
 
 What part of that can I learn from, without going too far?
 
-![](/images/2023/06/dalle-shadow.jpeg)
+![](/images/dalle-shadow.jpeg)
 
 ([join the discussion on LinedIn](https://www.linkedin.com/posts/michalparkola_according-to-carl-jung-each-one-of-us-carries-activity-6973002459174567937-Zhju?ref=localhost))

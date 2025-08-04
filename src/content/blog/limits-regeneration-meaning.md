@@ -3,7 +3,7 @@ title: "🍏 Use limits, regeneration and meaning to not go crazy in difficult t
 description: "* Eggs picture by Tengyart via Unsplash.com Autumn was a busy time for me and my girlfriend. We’ve moved from a single room micro-appartment to one more conducive to two people working from home al..."
 pubDate: 2020-12-16T06:00:06.000Z
 updatedDate: 2022-06-13T22:28:35.000Z
-heroImage: "/images/wordpress/2020/12/omt-029-eggs.jpeg"
+heroImage: "/images/omt-029-eggs.jpeg"
 featured: true
 ---
 \*

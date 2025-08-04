@@ -3,7 +3,7 @@ title: "⭐ Your Work Serves a Purpose: Make That Purpose Visible"
 description: "Kanban people remind us to visualize work. The default example is a board full of cards that represent tasks and their status. Something like this: That is a powerful tactic and we will surely expl..."
 pubDate: 2020-10-28T00:56:37.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/10/pexels-photo-669622.jpeg"
+heroImage: "/images/pexels-photo-669622.jpeg"
 ---
 Kanban people remind us to **visualize work**.
 
@@ -12,7 +12,7 @@ tasks and their status.
 
 Something like this:
 
-[![](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/10/omt-17-visualize-work.jpg?resize=319%2C179&ssl=1)](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/10/omt-17-visualize-work.jpg?ssl=1&ref=localhost)
+[![](/images/visualize-work-kanban.jpg)](/images/visualize-work-kanban.jpg)
 
 That is a powerful tactic and we will surely explore it in
 future posts.
@@ -42,7 +42,7 @@ they can learn from them.
 The gold is burried in the **human needs waiting to be served by the (indirect) ourcomes
 of your work**.
 
-[![](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/10/omt-17-needs.jpg?resize=242%2C341&ssl=1)](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/10/omt-17-needs.jpg?ssl=1&ref=localhost)
+[![](/images/visualize-outcomes-needs.jpg)](/images/visualize-outcomes-needs.jpg)
 
 The only problem is that the connection between action and
 indirect outcomes is, well… *indirect*.

@@ -3,7 +3,7 @@ title: "🤔 How might this make sense?"
 description: "Owl photo by Joe Green via Unslash One problem with remote work is that it’s even easier for misunderstandings to occur. It’s hard even when we’re working from the same physical space and have mult..."
 pubDate: 2020-12-02T00:56:27.000Z
 updatedDate: 2022-06-13T22:29:06.000Z
-heroImage: "/images/wordpress/2020/12/omt-026-owl.jpeg"
+heroImage: "/images/omt-026-owl.jpeg"
 featured: true
 ---
 [*Owl photo by Joe Green via Unslash*](https://unsplash.com/@jg?ref=localhost)

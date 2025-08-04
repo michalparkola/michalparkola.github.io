@@ -3,7 +3,7 @@ title: "What do high-performance teams need from their virtual space (that they'
 description: "Whose Space is it Anyway? What do you do right after you rent a new space? You move in! You bring your stuff and arrange it the way you want to. You do it for yourself mostly, but you also don’t mi..."
 pubDate: 2020-11-02T13:35:14.000Z
 updatedDate: 2021-01-30T05:56:47.000Z
-heroImage: "/images/wordpress/2020/11/high-perf-team-space-barn.jpeg"
+heroImage: "/images/high-perf-team-space-barn.jpeg"
 ---
 ## Whose Space is it Anyway?
 
@@ -76,7 +76,7 @@ Some high-performance teams went much further.
 Think government/military situation rooms or space mission
 control:
 
-[![](https://i2.wp.com/fluidcircle.net/wp-content/uploads/2020/11/pexels-photo-256219.jpeg?resize=900%2C524&ssl=1)](https://i2.wp.com/fluidcircle.net/wp-content/uploads/2020/11/pexels-photo-256219.jpeg?ssl=1&ref=localhost)
+[![Team Working at Night](/images/pexels-photo-256219.jpeg)](/images/pexels-photo-256219.jpeg)
 
 Photo by Pixabay on
 [Pexels.com](https://www.pexels.com/photo/men-working-at-night-256219/?ref=localhost)
@@ -122,7 +122,7 @@ make it better?
 
 How can we set the stage for a deep discussion?
 
-[![](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/11/high-perf-team-space-private-office.jpg?resize=640%2C426&ssl=1)](https://i1.wp.com/fluidcircle.net/wp-content/uploads/2020/11/high-perf-team-space-private-office.jpg?ssl=1&ref=localhost)
+[![High Performance Team Private Office](/images/high-perf-team-space-private-office.jpg)](/images/high-perf-team-space-private-office.jpg)
 
 Virtual backgrounds are cool, but they’re one sided. We
 should have a way to create an environment that is both

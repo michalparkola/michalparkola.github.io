@@ -3,7 +3,7 @@ title: "👀 Make Your Communication Concrete"
 description: "In the previous One Minute Tip we covered one of the three key skills of remote work, namely to communicate well in short chunks of writing. We ended that tip with the statement that good communica..."
 pubDate: 2020-10-15T15:15:00.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/10/fivesenses.jpg"
+heroImage: "/images/fivesenses.jpg"
 ---
 In the previous One Minute Tip we covered one of
 the **three key skills of remote work**,

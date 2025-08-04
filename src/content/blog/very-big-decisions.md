@@ -3,7 +3,7 @@ title: "⚖️ How to make Very Big Decisions?"
 description: "Base key decision on estimated impact on quantified stakeholder values Will your project succeed? That question hangs on a simple commandment: Make things people want. Great, but how do we know wha..."
 pubDate: 2020-10-06T06:06:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/10/omt-11-carrot.jpeg"
+heroImage: "/images/omt-11-carrot.jpeg"
 ---
 *Base key decision on estimated impact on quantified
 stakeholder values*
@@ -32,7 +32,7 @@ And then **estimate the impact of the options** you’re considering on those 
 I promise you it will bring to the surface misunderstandings
 that might otherwise derail your whole initiative.
 
-![](https://i1.wp.com/cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4d52cf2-f0bb-4d1e-af00-75ba6bb215c8_408x455.png?w=900&ssl=1)
+![](/images/very-big-decisions.png)
 
 Do this:
 

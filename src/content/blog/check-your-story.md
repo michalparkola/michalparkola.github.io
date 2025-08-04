@@ -3,14 +3,14 @@ title: "⚔️ Heroic Adventurers vs. Brutish Invaders"
 description: "Check Your Story Have you ever found yourself on one side of a situation like this? Ancient philosophers knew it and modern ones developed the idea: We do NOT have direct access to reality: 1. We p..."
 pubDate: 2020-09-29T11:29:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/09/omt-09-warriors.jpeg"
+heroImage: "/images/omt-09-warriors.jpeg"
 ---
 *Check Your Story*
 
 Have you ever found yourself on one side of a situation like
 this?
 
-[![](https://i0.wp.com/cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd76ac85-8057-4829-b893-73384606bd7d_498x312.png?w=900&ssl=1)](https://i2.wp.com/cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd76ac85-8057-4829-b893-73384606bd7d_498x312.png?ssl=1&ref=localhost)
+[![](/images/check-your-story-heroes-vs-invaders.png)](/images/check-your-story-heroes-vs-invaders.png)
 
 [Ancient philosophers knew it](https://en.wikipedia.org/wiki/Allegory_of_the_Cave?ref=localhost) and [modern ones developed the idea](https://en.wikipedia.org/wiki/General_semantics?ref=localhost):
 

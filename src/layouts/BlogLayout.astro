@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
 import BaseLayout from './BaseLayout.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
@@ -11,10 +12,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   <article>
     <header class="blog-header">
       {heroImage && (
-        <img 
+        <Image 
           class="hero-image" 
           src={heroImage} 
           alt={title}
+          width={800}
+          height={400}
+          format="webp"
+          quality={80}
+          sizes="(max-width: 768px) 100vw, 800px"
         />
       )}
       <h1>{title}</h1>
@@ -55,8 +61,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   .hero-image {
     width: 100%;
     max-width: 800px;
-    height: 400px;
-    object-fit: cover;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 2rem;
   }
@@ -138,10 +143,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
-    }
-    
-    .hero-image {
-      height: 250px;
     }
     
     .blog-content {

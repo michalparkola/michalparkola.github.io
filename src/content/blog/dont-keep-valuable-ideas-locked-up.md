@@ -3,7 +3,7 @@ title: "🥥 Don't keep valuable ideas locked up"
 description: "Meeting minutes are where great ideas are left to die One question: How often do you go back to old meeting notes? Yeah, … me neither. As I do more and more remote work one key discipline has becom..."
 pubDate: 2020-09-22T22:22:00.000Z
 updatedDate: 2021-10-09T20:03:03.000Z
-heroImage: "/images/2021/10/shell.jpeg"
+heroImage: "/images/shell.jpeg"
 ---
 *Meeting minutes are where great ideas are left to die*
 

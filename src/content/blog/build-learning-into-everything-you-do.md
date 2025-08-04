@@ -3,7 +3,7 @@ title: "Build learning into everything you do"
 description: "Hello there! Around 2015, I believed that online training could be better than live training, so I started experimenting under the name “People Skills for Geeks.” By the end of 2019, I had proof. T..."
 pubDate: 2021-02-26T11:11:00.000Z
 updatedDate: 2021-07-31T13:47:58.000Z
-heroImage: "/images/wordpress/2021/03/airplane-cockpit.jpeg"
+heroImage: "/images/airplane-cockpit.jpeg"
 ---
 Hello there!
 

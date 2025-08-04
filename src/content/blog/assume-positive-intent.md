@@ -3,7 +3,7 @@ title: "💝 Assume Positive Intent"
 description: "Don’t Let Worst Possible Stories Win If you can count on one thing, it’s that whenever there’s limited information people will make up the Worst Possible Story to fill in the gaps. * “My boss hates..."
 pubDate: 2020-09-18T22:22:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/09/omt-06-monkeys.jpeg"
+heroImage: "/images/omt-06-monkeys.jpeg"
 ---
 *Don’t Let Worst Possible Stories Win*
 
@@ -28,7 +28,7 @@ So what can we do about it?
    accumulated goodwill when trouble arises.
 3. And most of all: adopt the API (**Assume Positive Intent**) habit for yourself and with your team.
 
-![](https://i1.wp.com/cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F14b8fb52-3f20-403c-b3f8-54317763e1d2_522x734.png?w=900&ssl=1)
+![](/images/assume-positive-intent.png)
 
 **Who? What? When?**
 

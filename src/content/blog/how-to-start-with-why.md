@@ -3,7 +3,7 @@ title: "🔭 How to Start with WHY"
 description: "3 practical strategies Simon Sinek’s “Start with Why” is like a tsunami rolling over the business world. If you haven’t seen it yet or you’d like a reminder here’s Simon’s original TED talk. I used..."
 pubDate: 2020-09-25T00:25:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/09/omt-start-with-why-horizon.jpeg"
+heroImage: "/images/omt-start-with-why-horizon.jpeg"
 ---
 *3 practical strategies*
 
@@ -97,7 +97,7 @@ had in mind.
 
 *Elephant? What kind of elephant?*
 
-[![](https://i0.wp.com/cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd381662-7224-4a3e-840d-565a839e17d0_1003x380.png?w=900&ssl=1)](https://i0.wp.com/cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd381662-7224-4a3e-840d-565a839e17d0_1003x380.png?ssl=1&ref=localhost)
+[![](/images/start-with-why-5-whys.png)](/images/start-with-why-5-whys.png)
 
 [You might have recognized those questions as the](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd381662-7224-4a3e-840d-565a839e17d0_1003x380.png?ref=localhost)[basics of clean language](https://reesmccann.com/2017/08/01/clean-language-about/?ref=localhost), which I encourage you to explore after you experience the
 clarity that comes from just using those two easy to remember,

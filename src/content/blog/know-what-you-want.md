@@ -3,7 +3,7 @@ title: "💎 Know What You Want"
 description: "* Mountains picture by Tobias Rademacher via Unsplash If you don’t know what you want, you’re probably not going to get it. So to help you figure things out here are three things that helped me: Ex..."
 pubDate: 2020-12-31T18:40:57.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/12/omt-029-mountains.jpeg"
+heroImage: "/images/omt-029-mountains.jpeg"
 ---
 *\*
 [Mountains picture by Tobias Rademacher via Unsplash](https://unsplash.com/@tobbes_rd?ref=localhost)*

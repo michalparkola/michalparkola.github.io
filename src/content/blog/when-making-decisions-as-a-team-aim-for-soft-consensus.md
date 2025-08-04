@@ -12,7 +12,7 @@ For a high-performance team this is a mistake. If you want
 everyone to remain fully commited to the success of the team
 you cannot afford to trample objections like that.
 
-![consensus](https://www.growtogether.academy/content/images/wordpress/2015/11/consensus.jpg?resize=300%2C253&ssl=1)
+![Consensus Decision Making](/images/consensus.jpg)
 
 The standard for teams should be
 **soft consensus**:

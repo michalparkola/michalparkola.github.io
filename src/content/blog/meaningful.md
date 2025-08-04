@@ -3,7 +3,7 @@ title: "💛 Make Your Communication Meaningful (For Your Intended Audience)"
 description: "After concrete and concise, now is the time to cover the third part of the trilogy: meaningful. Talk about what they care about … … using the same words they use to describe it. Great, but how do w..."
 pubDate: 2020-10-22T22:22:00.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/wordpress/2020/10/meaningful.png"
+heroImage: "/images/meaningful.png"
 ---
 After [concrete](https://remoteleader.substack.com/p/good-communication-is-concrete?ref=localhost) and [concise](https://remoteleader.substack.com/p/make-your-communication-concise?ref=localhost), now is the time to cover the third part of the trilogy:
 meaningful.

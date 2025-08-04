@@ -3,7 +3,7 @@ title: "📐 Use a consistent information architecture across tools"
 description: "Build up your team information environment. Today’s one minute tip is: use a consistent information architecture across tools. For example: given you use JIRA Stories as the main unit of work and y..."
 pubDate: 2020-09-03T11:11:24.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/09/omt-002-architecture.jpg"
+heroImage: "/images/omt-002-architecture.jpg"
 ---
 *Build up your team information environment*.
 

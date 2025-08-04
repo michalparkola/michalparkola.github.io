@@ -29,7 +29,7 @@ middle dialog).
 An even better solution would be to have a really short message
 and big, meaningful buttons (dialog on the right).
 
-![yesnosavediscard](https://www.growtogether.academy/content/images/wordpress/2009/04/yesnosavediscard.png?resize=500%2C137&ssl=1)
+![UI Dialog Examples - Yes/No vs Save/Discard](/images/yesnosavediscard.png)
 
 That way we can minimise both confusion and delay and have
 happier, safer users.

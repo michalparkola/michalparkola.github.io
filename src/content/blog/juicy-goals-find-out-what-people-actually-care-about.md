@@ -29,9 +29,11 @@ bits inside.
 
 This is the stuff they *really* want.
 
-![](https://lh3.googleusercontent.com/IAx6EsSQFOStRj5moI8P1NMKkd8F3Eybo3rc_bGqp3ar40L2u0OHe6znauK3myWKUSvUD2x5keCafsIvbcMgWMIoP9W9EhyTXz5s4R5qYO9xOoaqvyn05W5w1QWLwe5a2d6XPK8fCf2p9_dk_3AdlMM)
+<!-- Image temporarily unavailable: Juicy goals diagram 1 -->
+*[Diagram illustrating juicy goals concept - temporarily unavailable]*
 
-![](https://lh3.googleusercontent.com/huqGEHjNJAQAd-6-OXUxiAg6_c_i092C-VB-qVcTlNDpCkZlqnqpTKRmrT2od5EWSpz7aU12PiYArEdiSfrgrZyuydmcVvpTnhTqbsxSQv1K3eD_A61ISvmFDL5LwCfqrg7eMiJrtyavGg4X_ANUp9Q)
+<!-- Image temporarily unavailable: Juicy goals diagram 2 -->
+*[Second diagram illustrating juicy goals concept - temporarily unavailable]*
 
 What is the goal inside the goal? Why do they need that Shiny
 app? What's the real obstacle stopping them from installing

@@ -3,7 +3,7 @@ title: "😀 Aim for a 5:1 ratio of positive to negative interactions"
 description: "What holds a great team together despite inevitable conflict? John Gottman has some answers. John has been studying married couples for decades. Work relationships are not marriages but the same co..."
 pubDate: 2020-09-09T11:11:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/wordpress/2020/09/omt-04-five-to-one.jpeg"
+heroImage: "/images/omt-04-five-to-one.jpeg"
 ---
 **What holds a great team together despite inevitable
 conflict?**
