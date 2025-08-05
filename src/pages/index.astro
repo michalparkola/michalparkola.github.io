@@ -13,21 +13,10 @@ const sortedPosts = allBlogPosts
 ---
 
 <BaseLayout title="Michał Parkoła">
-  <div class="hero">
-    <img 
-      class="profile-image" 
-      src="/images/2024/08/2024-03-GTA-spring-logo.png" 
-      alt="Michał Parkoła"
-    />
-    <h1>Michał Parkoła</h1>
-    <p class="tagline">
-      Senior Manager | Scaling Software Companies through People Development, Product Delivery & Process Optimization
-    </p>
-  </div>
 
   {featuredPosts.length > 0 && (
     <section class="featured-section">
-      <h2>Top 3</h2>
+      <h2>My top 3 most impactful articles</h2>
       <div class="featured-grid">
         {featuredPosts.map((post) => (
           <article class="featured-card">
@@ -48,7 +37,7 @@ const sortedPosts = allBlogPosts
   )}
 
   <section class="all-posts-section">
-    <h2>Everything</h2>
+    <h2>All articles</h2>
     <div class="posts-grid">
       {sortedPosts.map((post) => (
         <article class="post-card">
@@ -87,25 +76,10 @@ const sortedPosts = allBlogPosts
     margin: 3rem 0 4rem;
   }
   
-  .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 2rem;
-  }
-  
   .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #2c3e50;
-  }
-  
-  .tagline {
-    font-size: 1.25rem;
-    color: #666;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.5;
   }
   
   .featured-section, .all-posts-section {

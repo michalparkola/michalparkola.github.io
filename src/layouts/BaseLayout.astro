@@ -5,7 +5,7 @@ export interface Props {
   image?: string;
 }
 
-const { title, description = "I'm an entrepreneur, former senior engineering manager and agile coach helping software people do better.", image = "/images/2024/08/2024-03-GTA-spring-logo.png" } = Astro.props;
+const { title, description = "I'm an entrepreneur, former senior engineering manager and agile coach helping software people do better.", image = "/images/2024-03-GTA-spring-logo.png" } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/images/2024/08/2024-03-GTA-spring-logo.png" />
+    <link rel="icon" type="image/png" href="/images/2024-03-GTA-spring-logo.png" />
     <meta name="generator" content={Astro.generator} />
     
     <!-- Open Graph / Facebook -->
@@ -40,12 +40,24 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
   <body>
     <header>
       <nav>
-        <a href="/">Michał Parkoła</a>
+        <div class="header-title">
+          <img 
+            class="header-logo" 
+            src="/images/2024-03-GTA-spring-logo.png" 
+            alt="Michał Parkoła"
+          />
+          <div class="header-text">
+            <a href="/" class="name-link">Michał Parkoła</a>
+            <p class="subtitle">I'm a Senior Manager scaling software companies through people development, product delivery & process optimization.</p>
+          </div>
+        </div>
         <div>
-          <a href="https://learnthis.app/">LearnThis.app</a>
+          
           <a href="https://michalparkola.gumroad.com/">Books</a>
           <a href="https://www.linkedin.com/in/michalparkola/">LinkedIn</a>
           <a href="https://twitter.com/michalparkola">Twitter</a>
+          <a href="https://learnthis.app/">LearnThis.app</a>
+          <a href="https://pimpmylinkedin.com/">PimpMyLinkedIn.com</a>
         </div>
       </nav>
     </header>
@@ -89,12 +101,38 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     font-weight: 500;
   }
   
-  nav > a {
+  .header-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .name-link {
     font-size: 1.25rem;
     font-weight: 700;
   }
   
-  nav div {
+  .subtitle {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+    font-weight: 400;
+    max-width: 500px;
+  }
+  
+  nav > div:last-child {
     display: flex;
     gap: 2rem;
   }
