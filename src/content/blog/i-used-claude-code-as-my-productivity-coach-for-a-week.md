@@ -1,0 +1,116 @@
+---
+title: "🤖 I Used an AI Agent for Planning and Execution. Not going back."
+description: "I used Claude Code like a coach instead of a coding tool. Here is what actually changed."
+pubDate: 2025-12-30T01:43:43.000Z
+heroImage: "/images/robot-and-human-on-a-trail.png"
+---
+
+tl;dr Using AI agents with rich context for planning and execution can be a massive unlock. I will never go back to manual planning for complex projects—either in a solo or team context.
+
+## The Dip
+
+Day 2 of a focused sprint. The plan was solid — then reality pushed back. A key assumption seemed weak. Competing priorities emerged, pulling me toward either overthinking or a reactive pivot. Anyone who led delivery knows this moment.
+
+## The Context
+
+With so many options open at every turn, it's hard to stay focused on what's most important right now.
+
+In my years leading engineering and delivery teams, I've seen this pattern again and again. The problem isn't a lack of discipline. It's that executing complex plans requires a lot of bandwidth. Bandwidth we should use for human creativity and judgment that AI can't provide (yet).
+
+Last week, on a personal project, I used Claude Code with Sonnet 4.5 to act as my planning and execution partner. Here's what happened then.
+
+## Why an AI agent?
+
+I needed something to help clarify ideas, support planning, and provide accountability without judgment.
+
+Human colleagues or coaches are great, but AI is always available, infinitely patient, and can be direct without threatening the relationship.
+
+## The Setup
+
+I gathered all the project details in plain text files. My career background, motivations, and the ideal customer profile I aimed for. I also listed several hypotheses that must hold true for the project to succeed.
+
+Then I ran Claude Code in that folder and talked to it as if it were a colleague, using plain text in a terminal.
+
+## Scrum for One
+
+As someone with deep Agile roots, I decided to use trusty old Scrum, adapted for a one-person team.
+
+Claude and I started with Sprint Planning, setting a Sprint Goal and developing a simple Backlog.
+
+During the Sprint I talked to Claude while executing the tasks and adapted the plan based on what came up.
+
+At the end, I summarized what happened in a Sprint Review. I asked Claude to put on a Product Consultant hat, and we adjusted plans based on what we learned.
+
+For the Retrospective we used the Happiness Metric approach to find one change that would most increase my happiness and reduce stress the next time around.
+
+## Applying Knowledge
+
+For both planning and execution, I selected a few key sources I wanted to follow:
+
+- Jeff Sutherland's [Scrum Sage: Zen Edition](https://chatgpt.com/g/g-pajO1fBss-scrum-sage-zen-edition),
+- [The Mom Test book](https://www.momtestbook.com/) for interviews,
+- The [Iterative Hypothesis Customer Development Method](https://longform.asmartbear.com/customer-development/) article.
+
+Claude was great at turning these general references into practical tips, phrasing them to perfectly fit my specific context.
+
+See also [my set of Claude Skills for turning sources into actionable plans](https://github.com/michalparkola/tapestry-skills-for-claude-code)!
+
+## Instant, Direct, Grounded Feedback
+
+The main task of the sprint was testing project assumptions with potential customers. Although I was already quite familiar with the principles of modern customer development and good interviewing, Claude still helped me massively improve the messages I ended up sending.
+
+Concrete example:
+
+My first draft: "I'm gathering information from sales leaders..."
+
+Claude's feedback: "This positions you as a researcher, not a solution provider. Lead with value, not questions."
+
+Final version: "I build CRM integrations. Would a free pilot be interesting?"
+
+Result: faster convergence on clearer offers.
+
+I didn’t settle for generic model feedback. It can be useful on its own, but it's better when you choose the core principles to follow, as mentioned in Applying Knowledge.
+
+## Staying on Track While Adjusting to New Information
+
+While the hours ticked by, I provided Claude with a running log of what I was doing and what happened as a result. In a team context that could be auto-captured from Slack chats, Github PRs or Trello/Linear/Jira tickets.
+
+From time to time I also shared raw thinking in the spirit of rubber duck debugging. But in this case the rubber duck could talk back! Claude helped me "put away" distractions and temptations that came up and to address obstacles that threatened to slow me down.
+
+## What Worked
+
+Overall I'm extremely happy with the experience, and I do not see myself ever going back to working without AI. Here are the biggest benefits:
+
+- Messaging iteration: 2–3 feedback loops per message produced stronger offers.
+- Pivot discipline: AI pushback prevented impulsive zigzags (but supported a well-considered change).
+- Daily check-ins reduced drift.
+- AI absorbed frustration and quickly reframed feedback.
+
+## What Didn't
+
+AI can't do everything (yet). I still made most of the big and small decisions along the way. Treat AI as a thinking partner, not a crystal ball.
+
+For example, in the area of market prediction, AI couldn't tell me what the people I could reach really want. Only after reaching out and untangling responses was I able to extract true insights.
+
+## How You Can Try This (even without a desktop agent)
+
+Start small:
+
+1. Next time you're planning, ask AI: "Act as my advisor. Help me plan my project. Ask me clarifying questions if needed."
+2. When you're stuck, share context and ask, What am I missing here?
+3. Before important messages: draft, then ask AI for feedback, then iterate.
+4. Check in at least daily.
+
+## Potential for teams
+
+I'm excited to apply this approach with the teams I work with in 2026 and beyond. The main challenge will be to gather a shared context from all the data scattered across the tools a typical team uses.
+
+If done right, I expect this to enable wins beyond what simple productivity measures can capture.
+
+## What's next for me
+
+I'm continuing the work but shortening iterations to 2-day sprints with some slack days in between. That seems like the right cadence for solo projects.
+
+## Final Thought
+
+A disciplined execution framework powered by modern AI won't guarantee success, but it will help with focus and improve every piece of output.
