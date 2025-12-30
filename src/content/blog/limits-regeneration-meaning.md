@@ -131,7 +131,7 @@ activate your para-sympathetic nervous system:
 
 ## Meaning
 
-This ia a powerful, yet much less obvious one.
+This is a powerful, yet much less obvious one.
 
 This can be hard if you’re not used to it, but for me it
 made a massive difference when I managed to reframe things form

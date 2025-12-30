@@ -11,8 +11,8 @@ easy for people to understand you.
 
 ## **Lack of clarity causes problems**
 
-If you leve things unclear or ambiguous some people might just
-ignore the rest of you message.
+If you leave things unclear or ambiguous some people might just
+ignore the rest of your message.
 
 Opportunity lost.
 
