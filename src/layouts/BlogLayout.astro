@@ -11,6 +11,19 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 <BaseLayout title={title} description={description} image={heroImage}>
   <article>
     <header class="blog-header">
+      <h1>{title}</h1>
+      <div class="blog-meta">
+        <time datetime={pubDate.toISOString()}>
+          {pubDate.toISOString().split('T')[0]}
+        </time>
+        {updatedDate && (
+          <span>
+            · Updated on <time datetime={updatedDate.toISOString()}>
+              {updatedDate.toISOString().split('T')[0]}
+            </time>
+          </span>
+        )}
+      </div>
       {heroImage && (
         <Image 
           class="hero-image" 
@@ -23,27 +36,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
           sizes="(max-width: 768px) 100vw, 800px"
         />
       )}
-      <h1>{title}</h1>
-      <div class="blog-meta">
-        <time datetime={pubDate.toISOString()}>
-          {pubDate.toLocaleDateString('en-us', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
-        </time>
-        {updatedDate && (
-          <span>
-            · Updated on <time datetime={updatedDate.toISOString()}>
-              {updatedDate.toLocaleDateString('en-us', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
-            </time>
-          </span>
-        )}
-      </div>
     </header>
     
     <div class="blog-content">
@@ -63,7 +55,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     max-width: 800px;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   
   h1 {

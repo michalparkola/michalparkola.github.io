@@ -50,11 +50,7 @@ const sortedPosts = allBlogPosts
           )}
           <div class="post-content">
             <time datetime={post.data.pubDate.toISOString()}>
-              {post.data.pubDate.toLocaleDateString('en-us', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })}
+              {post.data.pubDate.toISOString().split('T')[0]}
             </time>
             <h3>
               <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
