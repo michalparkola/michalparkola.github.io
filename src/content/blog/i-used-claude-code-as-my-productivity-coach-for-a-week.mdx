@@ -5,6 +5,9 @@ pubDate: 2025-12-30T01:43:43.000Z
 heroImage: "/images/robot-and-human-on-a-trail.png"
 ---
 
+import { Image } from 'astro:assets';
+import claudeCodeScreenshot from '../../assets/claude-code-planning.png';
+
 tl;dr Using AI agents with rich context for planning and execution can be a massive unlock. I will never go back to manual planning for complex projects—either in a solo or team context.
 
 ## The Dip
@@ -31,7 +34,7 @@ I gathered all the project details in plain text files. My career background, mo
 
 Then I ran Claude Code in that folder and talked to it as if it were a colleague, using plain text in a terminal.
 
-![Claude Code planning interface](/images/claude-code-planning.png)
+<Image src={claudeCodeScreenshot} alt="Claude Code planning interface" width={800} />
 
 ## Scrum for One
 
