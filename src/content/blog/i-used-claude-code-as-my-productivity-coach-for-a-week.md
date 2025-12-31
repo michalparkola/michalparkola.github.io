@@ -31,6 +31,8 @@ I gathered all the project details in plain text files. My career background, mo
 
 Then I ran Claude Code in that folder and talked to it as if it were a colleague, using plain text in a terminal.
 
+![Claude Code planning interface](/images/claude-code-planning.png)
+
 ## Scrum for One
 
 As someone with deep Agile roots, I decided to use trusty old Scrum, adapted for a one-person team.
