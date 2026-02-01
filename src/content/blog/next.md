@@ -3,7 +3,7 @@ title: "👉 What To Do Next?"
 description: "This post describes one of the key ideas from the upcoming book 'Grow Together: Gain Clarity and Momentum in Your Tech Leadership Career' When you feel stuck on the way to your long term goals or c..."
 pubDate: 2021-09-19T16:45:55.000Z
 updatedDate: 2021-10-09T20:00:11.000Z
-heroImage: "https://images.unsplash.com/photo-1502101872923-d48509bff386?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGtpZCUyMHN0YWlyc3xlbnwwfHx8fDE2MzIwNzEwMTE&ixlib=rb-1.2.1&q=80&w=2000"
+heroImage: "/images/next-hero-kid-stairs.jpg"
 ---
 *This post describes one of the key ideas from the upcoming
 book "[Grow Together: Gain Clarity and Momentum in Your Tech
