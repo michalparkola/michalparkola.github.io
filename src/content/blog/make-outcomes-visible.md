@@ -3,7 +3,7 @@ title: "⭐ Your Work Serves a Purpose: Make That Purpose Visible"
 description: "Kanban people remind us to visualize work. The default example is a board full of cards that represent tasks and their status. Something like this: That is a powerful tactic and we will surely expl..."
 pubDate: 2020-10-28T00:56:37.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/pexels-photo-669622.jpeg"
+heroImage: "../../assets/pexels-photo-669622.jpeg"
 ---
 Kanban people remind us to **visualize work**.
 
@@ -12,7 +12,7 @@ tasks and their status.
 
 Something like this:
 
-[![](/images/visualize-work-kanban.jpg)](/images/visualize-work-kanban.jpg)
+[![](../../assets/visualize-work-kanban.jpg)](../../assets/visualize-work-kanban.jpg)
 
 That is a powerful tactic and we will surely explore it in
 future posts.
@@ -42,7 +42,7 @@ they can learn from them.
 The gold is burried in the **human needs waiting to be served by the (indirect) ourcomes
 of your work**.
 
-[![](/images/visualize-outcomes-needs.jpg)](/images/visualize-outcomes-needs.jpg)
+[![](../../assets/visualize-outcomes-needs.jpg)](../../assets/visualize-outcomes-needs.jpg)
 
 The only problem is that the connection between action and
 indirect outcomes is, well… *indirect*.

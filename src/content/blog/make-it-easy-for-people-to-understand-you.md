@@ -3,7 +3,7 @@ title: "✍️ Make it easy for people to understand you"
 description: "When you have something to say, say it in a way that makes it easy for people to understand you. Lack of clarity causes problems If you leve things unclear or ambiguous some people might just ignor..."
 pubDate: 2021-01-05T19:51:22.000Z
 updatedDate: 2022-06-13T22:27:34.000Z
-heroImage: "/images/omt-30-monkeys.jpg"
+heroImage: "../../assets/omt-30-monkeys.jpg"
 featured: true
 ---
 When you have something to say, say it in a way that makes it

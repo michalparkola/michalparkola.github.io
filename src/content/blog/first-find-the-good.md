@@ -3,7 +3,7 @@ title: "🍎 First Find the Good"
 description: "Imagine you’re holding a magic sword. The only problem is that it’s wrapped in dirty rags. When faced with a worthy challenge it would make sense to unwrap the sword and cast away the rags. Once yo..."
 pubDate: 2020-09-07T11:11:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/omt-03-find-the-good-e1606735281589.jpeg"
+heroImage: "../../assets/omt-03-find-the-good-e1606735281589.jpeg"
 ---
 Imagine you’re holding a magic sword.
 

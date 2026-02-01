@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const allBlogPosts = await getCollection('blog');
@@ -21,10 +22,12 @@ const sortedPosts = allBlogPosts
         {featuredPosts.map((post) => (
           <article class="featured-card">
             {post.data.heroImage && (
-              <img 
-                src={post.data.heroImage} 
+              <Image
+                src={post.data.heroImage}
                 alt={post.data.title}
                 class="card-image"
+                width={600}
+                format="webp"
               />
             )}
             <h3>
@@ -42,10 +45,12 @@ const sortedPosts = allBlogPosts
       {sortedPosts.map((post) => (
         <article class="post-card">
           {post.data.heroImage && (
-            <img 
-              src={post.data.heroImage} 
+            <Image
+              src={post.data.heroImage}
               alt={post.data.title}
               class="post-image"
+              width={600}
+              format="webp"
             />
           )}
           <div class="post-content">
@@ -71,64 +76,64 @@ const sortedPosts = allBlogPosts
     text-align: center;
     margin: 3rem 0 4rem;
   }
-  
+
   .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #2c3e50;
   }
-  
+
   .featured-section, .all-posts-section {
     margin: 4rem 0;
   }
-  
+
   .featured-section h2, .all-posts-section h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #2c3e50;
     text-align: center;
   }
-  
+
   .featured-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
   }
-  
+
   .featured-card {
     border: 1px solid #eee;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  
+
   .featured-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
-  
+
   .card-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
-  
+
   .featured-card h3 {
     padding: 1.5rem;
     margin: 0;
     font-size: 1.25rem;
   }
-  
+
   .featured-card a {
     text-decoration: none;
     color: #2c3e50;
   }
-  
+
   .featured-card a:hover {
     color: #5C8D11;
   }
-  
+
   .posts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -136,7 +141,7 @@ const sortedPosts = allBlogPosts
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+
   .post-card {
     border: 1px solid #eee;
     border-radius: 8px;
@@ -144,45 +149,45 @@ const sortedPosts = allBlogPosts
     transition: transform 0.2s, box-shadow 0.2s;
     background: white;
   }
-  
+
   .post-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
   }
-  
+
   .post-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
-  
+
   .post-content {
     padding: 1.5rem;
     position: relative;
   }
-  
+
   .post-content time {
     color: #666;
     font-size: 0.9rem;
     display: block;
     margin-bottom: 0.5rem;
   }
-  
+
   .post-content h3 {
     margin: 0 0 1rem 0;
     font-size: 1.3rem;
     line-height: 1.4;
   }
-  
+
   .post-content a {
     text-decoration: none;
     color: #2c3e50;
   }
-  
+
   .post-content a:hover {
     color: #5C8D11;
   }
-  
+
   .post-description {
     color: #666;
     line-height: 1.6;
@@ -192,7 +197,7 @@ const sortedPosts = allBlogPosts
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  
+
   .featured-badge {
     position: absolute;
     top: 1rem;
@@ -204,25 +209,25 @@ const sortedPosts = allBlogPosts
     font-size: 0.8rem;
     font-weight: 500;
   }
-  
+
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 2.5rem;
     }
-    
+
     .tagline {
       font-size: 1.1rem;
     }
-    
+
     .featured-grid {
       grid-template-columns: 1fr;
     }
-    
+
     .posts-grid {
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-    
+
     .post-card {
       margin: 0 -1rem;
       border-left: none;

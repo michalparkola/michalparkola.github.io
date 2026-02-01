@@ -3,7 +3,7 @@ title: "🤪 How to stay sane on the road to meaningful outcomes"
 description: "There’s a slight wrinkle hidden in the previous one minute tip about clarifying outcomes and actions when you’re stuck. I told you to start by clarifying the outcome by asking: 1. What would you li..."
 pubDate: 2020-11-04T00:50:39.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-019-winding-road.jpeg"
+heroImage: "../../assets/omt-019-winding-road.jpeg"
 ---
 There’s a slight wrinkle hidden in the [previous one minute tip about clarifying outcomes and actions
 when you’re stuck](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=1bc2f9ff28&e=f7f2fb2aaa&ref=localhost).

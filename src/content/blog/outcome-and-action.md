@@ -3,7 +3,7 @@ title: "🔎 When in Doubt Clarify the Outcome and Action"
 description: "If you want to do something, but you’re stuck it might be because you lack clarity about the exact outcome you’d like to make happen and the concrete action you need to take to get there. When? It ..."
 pubDate: 2020-10-30T01:04:36.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-018-outcome-and-action-seal.jpeg"
+heroImage: "../../assets/omt-018-outcome-and-action-seal.jpeg"
 ---
 If you want to **do** something, but you’re **stuck**
 it might be because you lack ****clarity**** about the

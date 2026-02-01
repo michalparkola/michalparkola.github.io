@@ -3,7 +3,7 @@ title: "📗 Get inspired by stories"
 description: "To go far you need a large tank of high-octane fuel—or even better, a steady supply of renewable energy. You need to be able to tap into powerful drivers that actually move people to do things. And..."
 pubDate: 2021-02-22T11:11:00.000Z
 updatedDate: 2024-05-21T23:50:15.000Z
-heroImage: "/images/ship.jpeg"
+heroImage: "../../assets/ship.jpeg"
 ---
 To go far you need a large tank of high-octane fuel—or even
 better, a steady supply of **renewable energy**.

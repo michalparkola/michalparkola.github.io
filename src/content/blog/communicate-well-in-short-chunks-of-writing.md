@@ -3,7 +3,7 @@ title: "✍️ Communicate Well in Short Chunks of Writing"
 description: "One of the key skills of remote work is to communicate well (in short chunks (of writing)). Let me explain: Communicate well What counts as communicating well depends on the purpose: 1. if it’s inf..."
 pubDate: 2020-10-13T13:13:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/omt-13-hieroglyphics.jpg"
+heroImage: "../../assets/omt-13-hieroglyphics.jpg"
 ---
 One of the [key skills of remote work](https://fluidcircle.net/keyskills/?ref=localhost) is to **communicate well (in short chunks (of writing))**.
 

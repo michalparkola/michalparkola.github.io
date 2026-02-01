@@ -4,7 +4,7 @@ description: "Have you ever experienced that another co-worker didn’t want to 
 pubDate: 2019-05-31T11:11:00.000Z
 updatedDate: 2021-01-05T20:22:13.000Z
 ---
-![Psychological Safety](/images/84763-65e4a2_95fbb44cf5ba482ca55e4678792d1817mv2.jpg)
+![Psychological Safety](../../assets/84763-65e4a2_95fbb44cf5ba482ca55e4678792d1817mv2.jpg)
 
 **Have you ever experienced that another co-worker didn’t want
 to listen to your feedback, even though it would clearly

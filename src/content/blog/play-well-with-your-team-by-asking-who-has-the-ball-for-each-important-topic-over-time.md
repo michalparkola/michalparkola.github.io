@@ -24,7 +24,7 @@ Some examples:
 * The Tech Lead is sick and there's an important architectural
   decision to be made: *Who should make it?*
 
-<img src="/images/ball-balance.png" alt="Who has the ball - balance diagram" width="50%" />
+![Who has the ball - balance diagram](../../assets/ball-balance.png)
 
 In most teams we have various processes and
 tools to help us. We have roles and
@@ -54,7 +54,7 @@ situations where *you think* it is):
 > **Ask** the other people who are involved:
 > **Who has the ⚽️?**
 
-<img src="/images/ball-game.png" alt="Who has the ball - game diagram" width="50%" />
+![Who has the ball - game diagram](../../assets/ball-game.png)
 
 The one with the ball is not the king of the universe. They
 might also not be the captain of that particular team.

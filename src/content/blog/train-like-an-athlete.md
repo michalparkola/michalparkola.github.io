@@ -3,7 +3,7 @@ title: "🏋️ Train like an athlete"
 description: "What do pro athletes do all day? Barbell picture by Victor Freitas via Unsplash.com Let’s say you want to become a world-class athlete. You wouldn’t expect to get strong from lifting a barbell once..."
 pubDate: 2020-12-23T02:47:13.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-27-barbell.jpeg"
+heroImage: "../../assets/omt-27-barbell.jpeg"
 ---
 # What do pro athletes do all day?
 

@@ -3,7 +3,7 @@ title: "☀️ Make good decisions in difficult interpersonal situations"
 description: "When the stakes are high and emotions run hot it’s not so easy to make the best decisions we would normally be capable of. The following set of questions will help you give it your best shot. Step ..."
 pubDate: 2020-11-25T00:13:47.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-025-foggy-forest.jpg"
+heroImage: "../../assets/omt-025-foggy-forest.jpg"
 ---
 When the stakes are high and emotions run hot it’s not so
 easy to make the best decisions we would normally be capable of.

@@ -3,7 +3,7 @@ title: "🕯️ Organize your communication around focused work"
 description: "Where does teamwork happen? For many teams it’s in meetings. Sure, everyone might have tasks to work through on their own, but in many teams the key interactions happen in meetings and conversation..."
 pubDate: 2021-01-27T07:05:36.000Z
 updatedDate: 2023-05-21T00:04:24.000Z
-heroImage: "/images/focused-work-in-library.jpg"
+heroImage: "../../assets/focused-work-in-library.jpg"
 ---
 Where does teamwork happen?
 
@@ -57,7 +57,7 @@ groups. The main idea is to keep the right balance.
 Inspired by the [Nozbe communication pyramid](https://nozbe.com/blog/communication-pyramid/?ref=localhost) here’s a simple model that can help you figure out the
 right balance for your team:
 
-![](/images/pyramid-of-healthy-comm.jpg)
+![](../../assets/pyramid-of-healthy-comm.jpg)
 
 1) The foundation of this pyramid is individual
 **focused work**.

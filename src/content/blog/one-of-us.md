@@ -3,7 +3,7 @@ title: "🏴‍☠️ One of Us"
 description: "How do you create a shared identity for a distributed team, without the benefit of physical proximity? Here are some things that I believe are most important: 1) Spend time in shared spaces Even if..."
 pubDate: 2020-11-13T01:08:15.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-022-ship-cropped.jpeg"
+heroImage: "../../assets/omt-022-ship-cropped.jpeg"
 ---
 How do you create a shared identity for a distributed team,
 without the benefit of physical proximity?

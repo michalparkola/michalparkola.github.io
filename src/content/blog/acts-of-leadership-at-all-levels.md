@@ -3,7 +3,7 @@ title: "🎖️ Encourage acts of leadership at all levels"
 description: "Let’s look at leadership through the lens of action. I like the analogy to mindsports like chess, go or poker. It’s not enough to be a good player. To win you have to actually make good plays. If y..."
 pubDate: 2020-11-20T00:43:22.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-023-jungle.jpeg"
+heroImage: "../../assets/omt-023-jungle.jpeg"
 ---
 Let’s look at leadership through the lens of action.
 

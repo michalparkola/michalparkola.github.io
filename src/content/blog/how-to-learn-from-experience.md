@@ -3,7 +3,7 @@ title: "🧪 How to learn from experience?"
 description: "This post is a sneak peek at an idea from the upcoming book 'Grow Together: Gain Clarity and Momentum in Your Tech Leadership Career' At various points in the lifecycle of our projects we like to a..."
 pubDate: 2021-10-03T20:04:34.000Z
 updatedDate: 2021-10-09T20:00:34.000Z
-heroImage: "/images/waterfall-experience-learning.jpg"
+heroImage: "../../assets/waterfall-experience-learning.jpg"
 ---
 **This post* is a sneak peek at an idea from*the upcoming book "[Grow Together: Gain Clarity and Momentum in Your Tech
 Leadership Career](http://growtogether.academy/book?ref=localhost)"**

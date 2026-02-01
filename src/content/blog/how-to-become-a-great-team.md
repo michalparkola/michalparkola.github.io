@@ -3,7 +3,7 @@ title: "🏆 How to become a great team"
 description: "Here’s a powerful framework that can help you lead your team to greatness. Part One: The Setup 1) Get clear on what matters most to you, your team, your customers and the organization you are part ..."
 pubDate: 2020-11-05T23:01:46.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-20-great-team.jpg"
+heroImage: "../../assets/omt-20-great-team.jpg"
 ---
 Here’s a powerful framework that can help you lead your
 team to greatness.
@@ -35,7 +35,7 @@ you can.
 
 ## Level 1: Plan, Do, Reflect
 
-[![Learning Loop - Plan Do Reflect](/images/omt-20-the-learning-loop-1.jpg)](/images/omt-20-the-learning-loop-1.jpg)
+[![Learning Loop - Plan Do Reflect](../../assets/omt-20-the-learning-loop-1.jpg)](../../assets/omt-20-the-learning-loop-1.jpg)
 
 Plan, Do, Reflect
 
@@ -85,7 +85,7 @@ other party in return.
 Regular internal meetups, dojos, action learning circles and the
 like can be useful for this.
 
-[![Learning Loop - Team Learning](/images/omt-20-the-learning-loop-2.jpg)](/images/omt-20-the-learning-loop-2.jpg)
+[![Learning Loop - Team Learning](../../assets/omt-20-the-learning-loop-2.jpg)](../../assets/omt-20-the-learning-loop-2.jpg)
 
 Add learning and sharing
 
@@ -101,7 +101,7 @@ best available expert at some particular discipline, veterans in
 other parts of the org or people you bring from outside for this
 specific purpose.
 
-[![Learning Loop - Advanced Team Learning](/images/omt-20-the-learning-loop-3.jpg)](/images/omt-20-the-learning-loop-3.jpg)
+[![Learning Loop - Advanced Team Learning](../../assets/omt-20-the-learning-loop-3.jpg)](../../assets/omt-20-the-learning-loop-3.jpg)
 
 Add targeted feedback
 

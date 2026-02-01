@@ -8,7 +8,7 @@ type Props = CollectionEntry<'blog'>['data'];
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image={heroImage}>
+<BaseLayout title={title} description={description} image={heroImage?.src}>
   <article>
     <header class="blog-header">
       <h1>{title}</h1>
@@ -25,19 +25,18 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         )}
       </div>
       {heroImage && (
-        <Image 
-          class="hero-image" 
-          src={heroImage} 
+        <Image
+          class="hero-image"
+          src={heroImage}
           alt={title}
           width={800}
-          height={400}
           format="webp"
           quality={80}
           sizes="(max-width: 768px) 100vw, 800px"
         />
       )}
     </header>
-    
+
     <div class="blog-content">
       <slot />
     </div>
@@ -49,7 +48,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     margin-bottom: 2rem;
     text-align: center;
   }
-  
+
   .hero-image {
     width: 100%;
     max-width: 800px;
@@ -57,43 +56,43 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     border-radius: 8px;
     margin-bottom: 0;
   }
-  
+
   h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #2c3e50;
     line-height: 1.2;
   }
-  
+
   .blog-meta {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 2rem;
   }
-  
+
   .blog-content {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.1rem;
     line-height: 1.7;
   }
-  
+
   .blog-content h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: #2c3e50;
   }
-  
+
   .blog-content h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
     color: #34495e;
   }
-  
+
   .blog-content p {
     margin-bottom: 1.5rem;
   }
-  
+
   .blog-content img {
     display: block;
     max-width: 100%;
@@ -101,16 +100,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     border-radius: 8px;
     margin: 1.5rem 0;
   }
-  
+
   .blog-content ul, .blog-content ol {
     margin-bottom: 1.5rem;
     padding-left: 2rem;
   }
-  
+
   .blog-content li {
     margin-bottom: 0.5rem;
   }
-  
+
   .blog-content blockquote {
     border-left: 4px solid #5C8D11;
     padding-left: 1.5rem;
@@ -118,7 +117,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     font-style: italic;
     color: #555;
   }
-  
+
   .blog-content code {
     background: #f8f9fa;
     padding: 0.2rem 0.4rem;
@@ -126,7 +125,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     font-family: 'Courier New', monospace;
     font-size: 0.9em;
   }
-  
+
   .blog-content pre {
     background: #f8f9fa;
     padding: 1rem;
@@ -134,17 +133,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     overflow-x: auto;
     margin: 1.5rem 0;
   }
-  
+
   .blog-content pre code {
     background: none;
     padding: 0;
   }
-  
+
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
     }
-    
+
     .blog-content {
       font-size: 1rem;
     }

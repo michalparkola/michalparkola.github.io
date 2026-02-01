@@ -29,7 +29,7 @@ bits inside.
 
 This is the stuff they *really* want.
 
-<img src="/images/juicy1.png" alt="Juicy goals concept 1" width="50%" /> <img src="/images/juicy2.png" alt="Juicy goals concept 2" width="50%" />
+![Juicy goals concept 1](../../assets/juicy1.png) ![Juicy goals concept 2](../../assets/juicy2.png)
 
 What is the goal inside the goal? Why do they need that Shiny
 app? What's the real obstacle stopping them from installing

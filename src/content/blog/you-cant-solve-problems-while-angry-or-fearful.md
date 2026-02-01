@@ -3,7 +3,7 @@ title: "🚦 You can't solve problems while angry or fearful"
 description: "Have you ever said or done something you regret while angry? Have you ever tried to reason with a person overcome by strong emotions? Yup, so did I. It’s a useful skill to be able to recognize emot..."
 pubDate: 2020-11-18T00:38:53.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-023-angry-owl.jpeg"
+heroImage: "../../assets/omt-023-angry-owl.jpeg"
 ---
 Have you ever said or done something you regret while angry?
 

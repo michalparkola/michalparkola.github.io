@@ -3,7 +3,7 @@ title: "😭 Three Pits of Team Despair"
 description: "Our purpose with Grow Together Academy is to help more great teams happen. Great teams that create and learn together. Great teams that get amazing results, without creating casualties. That is not..."
 pubDate: 2021-03-07T22:47:57.000Z
 updatedDate: 2021-10-09T19:59:32.000Z
-heroImage: "/images/the-pit-2.jpg"
+heroImage: "../../assets/the-pit-2.jpg"
 ---
 Our purpose with
 [Grow Together Academy](http://growtogether.academy/?ref=localhost)

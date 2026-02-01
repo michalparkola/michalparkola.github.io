@@ -3,7 +3,7 @@ title: "👉 Don't use the same tools to direct attention and store information"
 description: "Use email or chat to direct attention, use a team wiki to store information. Email and chat usually carry a high-level of urgency, but make it pretty hard to refer to key pieces of information late..."
 pubDate: 2021-01-07T18:21:21.000Z
 updatedDate: 2021-01-30T06:17:48.000Z
-heroImage: "/images/omt-031-direct-attention.jpeg"
+heroImage: "../../assets/omt-031-direct-attention.jpeg"
 ---
 Use email or chat to **direct attention**,  
 use

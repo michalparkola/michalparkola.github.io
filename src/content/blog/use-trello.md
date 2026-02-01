@@ -3,7 +3,7 @@ title: "🧠 Use Trello as a structured whiteboard for distributed brainstorming
 description: "Some people use Trello as a Kanban board (i.e. a task management or workflow app) and that’s a great use for it. A different way is to think about Trello as a structured whiteboard that you can use..."
 pubDate: 2020-10-01T01:01:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/omt-10-board.jpeg"
+heroImage: "../../assets/omt-10-board.jpeg"
 ---
 
 Some people use [Trello](https://trello.com/?ref=localhost) as a [Kanban](https://www.personalkanban.com/personal-kanban-101?ref=localhost) board (i.e. a task management or workflow app) and that’s
@@ -31,16 +31,16 @@ information flows.
 Here’s a sneak peek at a part of the board that we used for a
 recent workshop about [reducing meeting overload](https://mailchi.mp/ba31a0915319/overload?ref=localhost):
 
-[![](/images/trello-board-example.png)](/images/trello-board-example.png)
+[![](../../assets/trello-board-example.png)](../../assets/trello-board-example.png)
 
 Here’s a board used to collect and share a [catalog of great ideas collected over the whole year](https://trello.com/b/OyCgpp2F/2020?ref=localhost) by [Andrei Gavrila](https://www.linkedin.com/in/gavrilaandrei/?ref=localhost). Notice the amazing *scanability* of the
 ideas. I dare you to create a better summary in a regular blog
 post or wiki page:
 
-[![](/images/trello-yearly-catalog.png)](https://trello.com/b/OyCgpp2F/2020?ref=localhost)
+[![](../../assets/trello-yearly-catalog.png)](https://trello.com/b/OyCgpp2F/2020?ref=localhost)
 
 [And finally here’s the article by](https://trello.com/b/OyCgpp2F/2020?ref=localhost)[Paul Klipp](https://www.linkedin.com/in/paulklipp/?ref=localhost) that introduced me to the idea many years ago. It’s a
-description of [how to use a Kanban board for remote retrospectives](http://paulklipp.com/blog/use-a-kanban-board-to-facilitate-remote-retrospectives/?ref=localhost).![](/images/trello-kanban-retrospectives.png)
+description of [how to use a Kanban board for remote retrospectives](http://paulklipp.com/blog/use-a-kanban-board-to-facilitate-remote-retrospectives/?ref=localhost).![](../../assets/trello-kanban-retrospectives.png)
 
 It uses a different app called Kanbanery, but the same ideas can
 be easily used in Trello. Thanks Paul!

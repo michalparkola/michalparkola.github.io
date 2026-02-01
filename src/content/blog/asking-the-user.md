@@ -29,7 +29,7 @@ middle dialog).
 An even better solution would be to have a really short message
 and big, meaningful buttons (dialog on the right).
 
-![UI Dialog Examples - Yes/No vs Save/Discard](/images/yesnosavediscard.png)
+![UI Dialog Examples - Yes/No vs Save/Discard](../../assets/yesnosavediscard.png)
 
 That way we can minimise both confusion and delay and have
 happier, safer users.

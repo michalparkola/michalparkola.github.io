@@ -3,10 +3,10 @@ title: "🖼️ Show, don't tell"
 description: "The first ever One Minute Tip for Remote Leaders is about making references concrete. When you’re talking about something (document, ticket, website, app) — share your screen and show it. If you ha..."
 pubDate: 2020-09-02T11:11:00.000Z
 updatedDate: 2021-01-30T06:18:40.000Z
-heroImage: "/images/omt-001-gallery.jpg"
+heroImage: "../../assets/omt-001-gallery.jpg"
 ---
 The first ever One Minute Tip for Remote Leaders is about making
-references concrete.![](/images/show-dont-tell-gallery.png)
+references concrete.![](../../assets/show-dont-tell-gallery.png)
 
 When you’re talking about something (document, ticket,
 website, app) — share your screen and **show it**.
