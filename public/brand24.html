@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brand24 — AI Rebirth</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f6fbfa;
+    --bg-tertiary: #eef5f3;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f6fbfa;
+    --border: #d9e3ed;
+    --border-light: #e8eff5;
+    --text-primary: #22272a;
+    --text-secondary: #4a5568;
+    --text-muted: #8896a6;
+    --green: #0fb36c;
+    --green-bright: #00ef88;
+    --green-light: #beffe1;
+    --green-dim: #0fb36c15;
+    --green-bg: #e8faf1;
+    --orange: #ff6b35;
+    --orange-dim: #ff6b3515;
+    --purple: #7c3aed;
+    --purple-dim: #7c3aed15;
+    --blue: #2563eb;
+    --blue-dim: #2563eb15;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+    --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-pill: 9999px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* === HEADER === */
+  header {
+    position: relative;
+    padding: 48px 40px 0;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -300px; left: 50%;
+    transform: translateX(-50%);
+    width: 900px; height: 900px;
+    background: radial-gradient(circle, #0fb36c12 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .brand-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 48px;
+  }
+
+  .brand-logo {
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+  }
+
+  .brand-logo span {
+    color: var(--green);
+  }
+
+  .brand-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--border);
+  }
+
+  .brand-tag {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green);
+    background: var(--green-bg);
+    padding: 4px 14px;
+    border-radius: var(--radius-pill);
+  }
+
+  h1 {
+    font-size: clamp(44px, 7vw, 80px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+  }
+
+  h1 .gradient-text {
+    background: linear-gradient(135deg, var(--green) 0%, #00c9a7 50%, var(--green-bright) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .header-sub {
+    font-size: 20px;
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto 48px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .author-link {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+
+  .author-link:hover {
+    color: #0da362;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* === LAYOUT === */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  section {
+    margin-bottom: 80px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .section-icon {
+    width: 40px; height: 40px;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+  }
+
+  .section-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-left: auto;
+    background: var(--bg-secondary);
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+  }
+
+  /* === GAUGE SECTION === */
+  .gauge-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 60px 0 40px;
+  }
+
+  .gauge-container {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+
+  .gauge-svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    filter: drop-shadow(0 4px 20px rgba(15, 179, 108, 0.2));
+  }
+
+  .gauge-bg {
+    fill: none;
+    stroke: var(--border-light);
+    stroke-width: 10;
+  }
+
+  .gauge-fill {
+    fill: none;
+    stroke: url(#gaugeGradient);
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-dasharray: 0 880;
+    transition: stroke-dasharray 2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .gauge-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .gauge-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+  }
+
+  .gauge-unit {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--green);
+    letter-spacing: 2px;
+    margin-top: 6px;
+    font-weight: 600;
+  }
+
+  .gauge-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 8px;
+    font-weight: 500;
+  }
+
+  .gauge-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 280px;
+  }
+
+  .gauge-stat {
+    text-align: center;
+    padding: 24px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+  }
+
+  .gauge-stat:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .gauge-stat-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .gauge-stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  /* === LIVE TICKER === */
+  .ticker-bar {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 14px 0;
+    margin-bottom: 64px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ticker-bar::before,
+  .ticker-bar::after {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .ticker-bar::before {
+    left: 0;
+    background: linear-gradient(90deg, var(--bg-secondary), transparent);
+  }
+
+  .ticker-bar::after {
+    right: 0;
+    background: linear-gradient(-90deg, var(--bg-secondary), transparent);
+  }
+
+  .ticker-track {
+    display: flex;
+    gap: 48px;
+    animation: ticker 35s linear infinite;
+    width: max-content;
+  }
+
+  .ticker-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  .ticker-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse 2s ease infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* === FEED CARDS === */
+  .feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 16px;
+  }
+
+  .feed-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    transition: all 0.25s ease;
+    cursor: default;
+    position: relative;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .feed-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: var(--border);
+  }
+
+  .feed-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+
+  .feed-card:hover::before { opacity: 1; }
+  .feed-card.type-prototype::before { background: linear-gradient(90deg, var(--green), var(--green-bright)); }
+  .feed-card.type-tool::before { background: linear-gradient(90deg, var(--purple), var(--green)); }
+  .feed-card.type-improvement::before { background: linear-gradient(90deg, var(--orange), #fbbf24); }
+  .feed-card.type-automation::before { background: linear-gradient(90deg, var(--blue), var(--purple)); }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .card-tag {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+  }
+
+  .tag-prototype { background: var(--green-bg); color: var(--green); }
+  .tag-tool { background: var(--purple-dim); color: var(--purple); }
+  .tag-improvement { background: var(--orange-dim); color: var(--orange); }
+  .tag-automation { background: var(--blue-dim); color: var(--blue); }
+
+  .card-dept {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-left: auto;
+    font-weight: 500;
+  }
+
+  .card-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-light);
+  }
+
+  .card-metric {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .card-metric .icon { font-size: 14px; }
+
+  .card-impact {
+    margin-left: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: var(--radius-pill);
+    background: var(--green-bg);
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  /* === INSPIRATION FEED === */
+  .inspo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+  .inspo-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: 20px;
+    transition: all 0.25s ease;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .inspo-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .inspo-emoji {
+    font-size: 22px;
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-secondary);
+    border-radius: var(--radius);
+    border: 1px solid var(--border-light);
+  }
+
+  .inspo-content { flex: 1; min-width: 0; }
+
+  .inspo-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+
+  .inspo-source {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+  }
+
+  .inspo-who {
+    font-size: 12px;
+    color: var(--green);
+    margin-top: 6px;
+    font-weight: 600;
+  }
+
+  /* === ABOUT SECTION === */
+  .about-section {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-light);
+    border-radius: 24px;
+    padding: 56px;
+    margin-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .about-section::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, #0fb36c0d 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .about-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .about-avatar {
+    width: 80px; height: 80px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--green) 0%, var(--green-bright) 100%);
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(15, 179, 108, 0.3);
+  }
+
+  .about-name {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  .about-role {
+    font-size: 15px;
+    color: var(--green);
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  .about-tagline {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .about-block h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--green);
+    margin-bottom: 16px;
+    font-weight: 700;
+  }
+
+  .about-block ul {
+    list-style: none;
+  }
+
+  .about-block li {
+    font-size: 14px;
+    color: var(--text-secondary);
+    padding: 8px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.5;
+  }
+
+  .about-block li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    flex-shrink: 0;
+    margin-top: 8px;
+  }
+
+  .about-block-full {
+    margin-bottom: 32px;
+  }
+
+  .about-cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: var(--radius-pill);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .btn-primary {
+    background: var(--green);
+    color: white;
+    box-shadow: 0 2px 8px rgba(15, 179, 108, 0.3);
+  }
+
+  .btn-primary:hover {
+    background: #0da362;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(15, 179, 108, 0.4);
+  }
+
+  .btn-secondary {
+    background: var(--bg-card);
+    color: var(--green);
+    border: 1.5px solid var(--green);
+  }
+
+  .btn-secondary:hover {
+    background: var(--green-bg);
+  }
+
+  /* === FOOTER === */
+  footer {
+    text-align: center;
+    padding: 48px 40px;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-light);
+  }
+
+  footer .footer-main {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  footer .footer-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    margin-top: 8px;
+    color: var(--text-muted);
+  }
+
+  /* === RESPONSIVE === */
+  @media (max-width: 768px) {
+    header { padding: 32px 20px 0; }
+    .brand-bar { margin-bottom: 32px; }
+    .gauge-section { flex-direction: column; gap: 32px; }
+    .gauge-stats { width: 100%; max-width: 320px; }
+    .about-section { padding: 28px; }
+    .about-header { flex-direction: column; text-align: center; }
+    .about-grid { grid-template-columns: 1fr; }
+    .feed-grid { grid-template-columns: 1fr; }
+    .inspo-grid { grid-template-columns: 1fr; }
+    .about-cta { justify-content: center; }
+  }
+
+  /* === ANIMATIONS === */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="brand-bar">
+    <div class="brand-logo">Brand<span>24</span></div>
+    <div class="brand-divider"></div>
+    <div class="brand-tag">AI Transformation</div>
+  </div>
+  <h1><span class="gradient-text">AI Rebirth</span></h1>
+  <p class="header-sub">What happens when every team at Brand24 gets AI. A vision by <a href="#about" class="author-link">Michał Parkoła ↓</a></p>
+</header>
+
+<!-- ===== LIVE TICKER ===== -->
+<div class="ticker-bar">
+  <div class="ticker-track" id="ticker"></div>
+</div>
+
+<!-- ===== TOKEN BURN GAUGE ===== -->
+<div class="container">
+  <section class="gauge-section fade-in">
+    <div class="gauge-container">
+      <svg class="gauge-svg" viewBox="0 0 300 300">
+        <defs>
+          <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0fb36c" />
+            <stop offset="50%" stop-color="#00c9a7" />
+            <stop offset="100%" stop-color="#00ef88" />
+          </linearGradient>
+        </defs>
+        <circle class="gauge-bg" cx="150" cy="150" r="140" />
+        <circle class="gauge-fill" id="gaugeFill" cx="150" cy="150" r="140" />
+      </svg>
+      <div class="gauge-center">
+        <div class="gauge-value" id="gaugeValue">0</div>
+        <div class="gauge-unit">M TOKENS</div>
+        <div class="gauge-label">monthly burn rate</div>
+      </div>
+    </div>
+
+    <div class="gauge-stats">
+      <div class="gauge-stat">
+        <div class="gauge-stat-value" id="statTeams">0</div>
+        <div class="gauge-stat-label">Active Builders</div>
+      </div>
+      <div class="gauge-stat">
+        <div class="gauge-stat-value" id="statWorkflows">0</div>
+        <div class="gauge-stat-label">Outputs</div>
+      </div>
+      <div class="gauge-stat">
+        <div class="gauge-stat-value" id="statHours">0</div>
+        <div class="gauge-stat-label">Rave Reviews</div>
+      </div>
+      <div class="gauge-stat">
+        <div class="gauge-stat-value" id="statROI">0</div>
+        <div class="gauge-stat-label">5&#9733; Sources</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OUTPUTS FEED ===== -->
+  <section class="fade-in">
+    <div class="section-header">
+      <div class="section-icon" style="background: var(--green-bg);">&#9889;</div>
+      <div class="section-title">Outputs — Shipped from the AI Lab</div>
+      <div class="section-count" id="outputCount"></div>
+    </div>
+    <div class="feed-grid" id="outputsFeed"></div>
+  </section>
+
+  <!-- ===== INSPIRATIONS FEED ===== -->
+  <section class="fade-in">
+    <div class="section-header">
+      <div class="section-icon" style="background: var(--purple-dim);">&#10024;</div>
+      <div class="section-title">Inspirations — Curated by the Team</div>
+      <div class="section-count" id="inspoCount"></div>
+    </div>
+    <div class="inspo-grid" id="inspoFeed"></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about-section fade-in">
+    <div class="about-header">
+      <img class="about-avatar" src="https://media.licdn.com/dms/image/v2/D4D03AQED1cObGeNBGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711499920642?e=1775088000&v=beta&t=1LfQoQDumN2c-DWJaSgENPoEnRbiPgZxQZ-hks3uLuA" alt="Michał Parkoła" />
+      <div>
+        <div class="about-name">Michał Parkoła</div>
+        <div class="about-role">AI Adoption Manager — Candidate</div>
+        <div class="about-tagline">15 years turning "we should do that" into shipped results</div>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-block">
+        <h3>Why I fit this role</h3>
+        <ul>
+          <li>Scaled Appsilon from ~25 to ~100 people in under 2 years — building systems that stick</li>
+          <li>Daily AI power user: Claude Code, Cursor, ChatGPT — I ship products with these tools, not just talk about them</li>
+          <li>Built Tapestry — an AI-powered team performance platform — from zero, solo</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3>What I bring to Brand24</h3>
+        <ul>
+          <li>Workshop design & facilitation — organized Poland's first public Scrum training with Jeff Sutherland</li>
+          <li>Prompt engineering & workflow automation — hands-on, every day</li>
+          <li>Technical enough to prototype (Python, JS, React Native, Django) — strategic enough to prioritize</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3>Track record</h3>
+        <ul>
+          <li>Speaker at Posit::Conf 2023 (Chicago) — built design capability from scratch</li>
+          <li>Published: Computerworld Polska, "30 Dni Scrum"</li>
+          <li>Certifications: PSM, PSPO, CSPO, SAFe SPC, altMBA</li>
+          <li>Shipped apps: LearnThis, NorthStar, Unilog.me — all AI-assisted builds</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="about-block about-block-full">
+      <h3>My approach</h3>
+      <ul>
+        <li>Start with quick wins — show value in week 1, not month 3</li>
+        <li>Build internal champions, not dependency on one person</li>
+        <li>Measure everything — tokens, time saved, adoption rate, team satisfaction</li>
+        <li>This page was vibe-coded with Claude in one session. That's the pace.</li>
+      </ul>
+    </div>
+
+    <div class="about-cta">
+      <a href="https://www.linkedin.com/in/michalparkola/" class="btn btn-primary" target="_blank">LinkedIn Profile</a>
+      <a href="mailto:michal.parkola@gmail.com" class="btn btn-secondary">michal.parkola@gmail.com</a>
+    </div>
+  </section>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-main">Brand24 AI Rebirth — a vision by Michał Parkoła</div>
+  <div class="footer-note">vibe-coded with Claude &middot; march 2026</div>
+</footer>
+
+<script>
+// ===== DATA =====
+const outputs = [
+  {
+    type: 'prototype',
+    tag: 'Prototype',
+    dept: 'Marketing',
+    title: 'AI-Powered Mention Summarizer',
+    desc: 'One-click daily digest that turns 200+ brand mentions into a 3-paragraph executive summary with sentiment breakdown and suggested responses.',
+    tokens: '45K',
+    time: '3 days',
+    impact: '4h saved/day'
+  },
+  {
+    type: 'tool',
+    tag: 'Tool',
+    dept: 'Sales',
+    title: 'Prospect Intelligence Brief Generator',
+    desc: 'Feed it a company name — get a complete brief with their social presence, recent mentions, competitor comparison, and suggested outreach angle.',
+    tokens: '28K',
+    time: '2 days',
+    impact: '3x pipeline'
+  },
+  {
+    type: 'improvement',
+    tag: 'Improvement',
+    dept: 'Product',
+    title: 'Automated Feature Request Clustering',
+    desc: 'Ingests support tickets and feedback, clusters them by theme, and surfaces the top 5 feature requests weekly with supporting evidence quotes.',
+    tokens: '62K',
+    time: '1 week',
+    impact: '-60% triage time'
+  },
+  {
+    type: 'automation',
+    tag: 'Automation',
+    dept: 'Customer Success',
+    title: 'Churn Risk Early Warning System',
+    desc: 'Monitors customer usage patterns and mention sentiment to flag accounts at risk of churning — 2 weeks before they go silent.',
+    tokens: '38K',
+    time: '5 days',
+    impact: '-25% churn'
+  },
+  {
+    type: 'prototype',
+    tag: 'Prototype',
+    dept: 'Marketing',
+    title: 'Social Listening Report Auto-Generator',
+    desc: 'Takes raw Brand24 data exports and generates client-ready PDF reports with charts, insights, and recommended actions. Zero manual work.',
+    tokens: '52K',
+    time: '4 days',
+    impact: '6h saved/report'
+  },
+  {
+    type: 'tool',
+    tag: 'Tool',
+    dept: 'Engineering',
+    title: 'PR Review Copilot with Context',
+    desc: 'Understands Brand24 codebase conventions, reviews PRs with domain-specific suggestions, and auto-generates release notes from merged changes.',
+    tokens: '35K',
+    time: '3 days',
+    impact: '-40% review time'
+  },
+  {
+    type: 'automation',
+    tag: 'Automation',
+    dept: 'Data',
+    title: 'Anomaly Detection in Mention Spikes',
+    desc: 'Real-time monitoring that distinguishes genuine viral moments from bot activity or spam, alerting the team with confidence scores.',
+    tokens: '41K',
+    time: '1 week',
+    impact: '95% accuracy'
+  },
+  {
+    type: 'improvement',
+    tag: 'Improvement',
+    dept: 'Support',
+    title: 'Smart Reply Suggestions for Support',
+    desc: 'Suggests contextual responses to customer tickets based on similar resolved cases, product docs, and customer history. One click to send.',
+    tokens: '29K',
+    time: '4 days',
+    impact: '-50% response time'
+  },
+  {
+    type: 'tool',
+    tag: 'Tool',
+    dept: 'Marketing',
+    title: 'Competitor Mention Comparison Dashboard',
+    desc: 'Automated weekly competitive intelligence — tracks share of voice, sentiment shifts, and emerging narratives across competitors.',
+    tokens: '33K',
+    time: '3 days',
+    impact: 'new capability'
+  }
+];
+
+const inspirations = [
+  {
+    emoji: '&#128218;',
+    title: 'Ethan Mollick: "Co-Intelligence" — the playbook for org-wide AI adoption',
+    source: 'Book',
+    who: 'Shared by Michał P.'
+  },
+  {
+    emoji: '&#127909;',
+    title: 'How Klarna replaced 700 support agents with AI — and what they learned',
+    source: 'YouTube / Lenny\'s Podcast',
+    who: 'Shared by CS Team'
+  },
+  {
+    emoji: '&#128196;',
+    title: 'Anthropic\'s guide to prompt engineering for enterprise workflows',
+    source: 'docs.anthropic.com',
+    who: 'Shared by Michał P.'
+  },
+  {
+    emoji: '&#128161;',
+    title: 'n8n workflow: auto-classify support tickets by urgency and route to right team',
+    source: 'n8n.io Community',
+    who: 'Shared by Ops Team'
+  },
+  {
+    emoji: '&#128200;',
+    title: 'McKinsey: "The state of AI in 2025" — 65% of orgs now use GenAI regularly',
+    source: 'mckinsey.com',
+    who: 'Shared by Michał P.'
+  },
+  {
+    emoji: '&#129302;',
+    title: 'Building internal AI agents with Claude — from chatbot to workflow engine',
+    source: 'Anthropic Blog',
+    who: 'Shared by Engineering'
+  },
+  {
+    emoji: '&#128640;',
+    title: 'How Linear uses AI to auto-triage, label, and assign every issue',
+    source: 'linear.app/blog',
+    who: 'Shared by Product Team'
+  },
+  {
+    emoji: '&#127911;',
+    title: 'Lenny Rachitsky: "Every PM will be an AI PM" — what that means in practice',
+    source: 'Lenny\'s Newsletter',
+    who: 'Shared by Product Team'
+  }
+];
+
+const tickerItems = [
+  'Marketing: mention summarizer shipped',
+  'Sales: 3x pipeline with AI briefs',
+  'Support: response time -50%',
+  'Product: feature clustering live',
+  'Engineering: PR review time -40%',
+  'CS: churn prediction active',
+  'Data: anomaly detection at 95% accuracy',
+  'Week 4: 6 teams onboarded',
+  'Prompt library: 47 templates live',
+  'Total workflows: 23 active',
+];
+
+// ===== RENDER TICKER =====
+function renderTicker() {
+  const track = document.getElementById('ticker');
+  const items = [...tickerItems, ...tickerItems];
+  track.innerHTML = items.map(text =>
+    `<div class="ticker-item"><span class="ticker-dot"></span>${text}</div>`
+  ).join('');
+}
+
+// ===== RENDER OUTPUTS =====
+function renderOutputs() {
+  const feed = document.getElementById('outputsFeed');
+  document.getElementById('outputCount').textContent = `${outputs.length} shipped`;
+  feed.innerHTML = outputs.map(o => `
+    <div class="feed-card type-${o.type}">
+      <div class="card-meta">
+        <span class="card-tag tag-${o.type}">${o.tag}</span>
+        <span class="card-dept">${o.dept}</span>
+      </div>
+      <div class="card-title">${o.title}</div>
+      <div class="card-desc">${o.desc}</div>
+      <div class="card-footer">
+        <span class="card-metric"><span class="icon">&#9889;</span> ${o.tokens} tokens</span>
+        <span class="card-metric"><span class="icon">&#128338;</span> ${o.time}</span>
+        <span class="card-impact">${o.impact}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ===== RENDER INSPIRATIONS =====
+function renderInspirations() {
+  const feed = document.getElementById('inspoFeed');
+  document.getElementById('inspoCount').textContent = `${inspirations.length} sources`;
+  feed.innerHTML = inspirations.map(i => `
+    <div class="inspo-card">
+      <div class="inspo-emoji">${i.emoji}</div>
+      <div class="inspo-content">
+        <div class="inspo-title">${i.title}</div>
+        <div class="inspo-source">${i.source}</div>
+        <div class="inspo-who">${i.who}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ===== ANIMATE GAUGE =====
+function animateGauge() {
+  const fill = document.getElementById('gaugeFill');
+  const circumference = 2 * Math.PI * 140;
+  const targetPercent = 0.72;
+  const targetValue = 14.2;
+
+  setTimeout(() => {
+    fill.style.strokeDasharray = `${circumference * targetPercent} ${circumference}`;
+  }, 500);
+
+  const valueEl = document.getElementById('gaugeValue');
+  animateCounter(valueEl, 0, targetValue, 2000, 1);
+
+  animateCounter(document.getElementById('statTeams'), 0, 81, 1500, 0);
+  animateCounter(document.getElementById('statWorkflows'), 0, 123, 1500, 0);
+  animateCounter(document.getElementById('statHours'), 0, 42, 1500, 0);
+  animateCounter(document.getElementById('statROI'), 0, 17, 1500, 0);
+}
+
+function animateCounter(el, from, to, duration, decimals) {
+  const start = performance.now();
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = from + (to - from) * eased;
+    el.textContent = current.toFixed(decimals);
+    if (progress < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+
+// ===== SCROLL ANIMATIONS =====
+function initScrollAnimations() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', () => {
+  renderTicker();
+  renderOutputs();
+  renderInspirations();
+  animateGauge();
+  initScrollAnimations();
+});
+</script>
+</body>
+</html>
