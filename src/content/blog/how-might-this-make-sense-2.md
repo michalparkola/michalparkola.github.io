@@ -6,7 +6,7 @@ updatedDate: 2022-06-13T22:29:06.000Z
 heroImage: "../../assets/omt-026-owl.jpeg"
 featured: true
 ---
-[*Owl photo by Joe Green via Unslash*](https://unsplash.com/@jg?ref=localhost)
+[*Owl photo by Joe Green via Unslash*](https://unsplash.com/@jg)
 
 One problem with remote work is that it’s
 even easier for misunderstandings to occur.
@@ -52,7 +52,7 @@ They should trust us?
 Pause!
 
 What if we
-[assume positive intent](https://fluidcircle.net/2020/09/18/assume-positive-intent/?ref=localhost)?
+[assume positive intent](/blog/assume-positive-intent/)?
 
 What might they be trying to achieve?
 

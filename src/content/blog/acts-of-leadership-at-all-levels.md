@@ -35,7 +35,7 @@ Healthy organizations
 **encourage acts of leadership at all levels**.
 
 (A principle
-[I learned from Kanban](https://resources.kanban.university/kanbans-change-management-principles/?ref=localhost).)
+[I learned from Kanban](https://resources.kanban.university/kanbans-change-management-principles/).)
 
 If you are a formal leader — what acts of leadership do you
 perform most often? How can you do more of that, more
@@ -51,4 +51,4 @@ If you’re none of the above — is there something you care
 about, that is not taken care of at the moment? How can you take
 care of that thing and invite others to join you?
 
-[*Jungle photo by Ryan Kosmides via Unsplash*](https://unsplash.com/@ryankosmides?ref=localhost)
+[*Jungle photo by Ryan Kosmides via Unsplash*](https://unsplash.com/@ryankosmides)

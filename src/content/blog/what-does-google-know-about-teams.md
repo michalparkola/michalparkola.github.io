@@ -6,7 +6,7 @@ updatedDate: 2021-01-30T06:14:53.000Z
 ---
 *(This is a short note about something I found
 useful in my role as a manager and coach at
-[9LivesData](http://www.9livesdata.com/?ref=localhost).)*
+[9LivesData](http://www.9livesdata.com/).)*
 
 Project Aristotle was a research project conducted by
 Google. The goal of the project was to find what attributes of a
@@ -24,17 +24,17 @@ effectiveness are:
 More information:
 
 * [New York Times “What Google Learned From Its Quest to
-  Build the Perfect Team”](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html?_r=0&ref=localhost)
+  Build the Perfect Team”](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html?_r=0)
   + “*Google’s intense data collection and number crunching
     have led it to the conclusions that [in] the best
     teams, members
     **listen to one another** and
     **show sensitivity to feelings and needs***“
-* Amy Edmondson TEDx talk “[Building a psychologically safe workplace](https://www.youtube.com/watch?v=LhoLuui9gX8&ref=localhost)”
+* Amy Edmondson TEDx talk “[Building a psychologically safe workplace](https://www.youtube.com/watch?v=LhoLuui9gX8)”
   + psychological safety is needed if we have uncertainty
     and interdependence
   + frame the work as a learning problem, not an execution
     problem
 * Anita Woolley on
-  [Collective Intelligence in Human Groups](https://www.youtube.com/watch?v=Bz1dDiW2mvM&ref=localhost)
-* [Paweł Brodziński](http://brodzinski.com/?ref=localhost)‘s [lightning talk about collective intelligence](http://fluidcircle.net/2017/01/20/pawel-brodzinski-on-collective-intelligence/?ref=localhost)
+  [Collective Intelligence in Human Groups](https://www.youtube.com/watch?v=Bz1dDiW2mvM)
+* [Paweł Brodziński](http://brodzinski.com/)‘s [lightning talk about collective intelligence](/blog/pawel-brodzinski-on-collective-intelligence/)

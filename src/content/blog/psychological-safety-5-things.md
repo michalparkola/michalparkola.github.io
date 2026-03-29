@@ -13,7 +13,7 @@ because an employee didn’t tell you about unresolved issues
 with a client? Perhaps it is a lack of psychological safety
 that hampers open communication with your team.**
 
-[Research at Google](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/?ref=localhost) showed that there are five key dynamics that set
+[Research at Google](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) showed that there are five key dynamics that set
 successful teams apart from others and psychological safety is
 number one on that list. We’re all reluctant to engage in
 behaviors that could negatively influence how others perceive
@@ -200,9 +200,9 @@ experience? Please e-mail us at [michal@peopleskillsforgeeks.com](mailto:michal
 [Abraham Carmeli, Daphna Brueller and Jane Dutton
 (2009). *Learning Behaviours in the Workplace: The Role of
 High-quality Interpersonal Relationships and Psychological
-Safety*, Systems Research and Behavioral Science, 26, 81-98.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.483.3812&rep=rep1&type=pdf&ref=localhost)
+Safety*, Systems Research and Behavioral Science, 26, 81-98.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.483.3812&rep=rep1&type=pdf)
 
 [The Rabbit Hole: An inside look into software development
-(podcast). *31. Psychological safety*](http://therabbithole.libsyn.com/31-psychological-safety?ref=localhost).
+(podcast). *31. Psychological safety*](http://therabbithole.libsyn.com/31-psychological-safety).
 
-[Julia Rozovsky (2015). *The five keys to a successful Google team*](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/?ref=localhost).
+[Julia Rozovsky (2015). *The five keys to a successful Google team*](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/).

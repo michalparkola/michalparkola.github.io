@@ -78,6 +78,6 @@ don’t want you to suffer; so don’t do it!
 
 If you want to read more about ethos, pathos and logos
 here’s a great article from a blog that I really like:
-Sources of Insight “[Character trumps emotion trumps logic](http://sourcesofinsight.com/character-trumps-emotion-trumps-logic/?ref=localhost)“.
+Sources of Insight “[Character trumps emotion trumps logic](http://sourcesofinsight.com/character-trumps-emotion-trumps-logic/)“.
 
 ### Try it!

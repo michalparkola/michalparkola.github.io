@@ -7,7 +7,7 @@ heroImage: "../../assets/omt-27-barbell.jpeg"
 ---
 # What do pro athletes do all day?
 
-[*Barbell picture by Victor Freitas via Unsplash.com*](https://unsplash.com/@victorfreitas?ref=localhost)
+[*Barbell picture by Victor Freitas via Unsplash.com*](https://unsplash.com/@victorfreitas)
 
 Let’s say you want to become a world-class athlete.
 
@@ -95,15 +95,15 @@ Starting from absolute basics and building up:
 1. Write a sentence summarising something you’re reading or
    thinking about.
 2. Write or improve an
-   [evergreen note](https://notes.andymatuschak.org/Evergreen_notes?ref=localhost)
+   [evergreen note](https://notes.andymatuschak.org/Evergreen_notes)
    on a subject you care about.
 3. Write and publish a short piece about something you learned
    recently.
 
 It’s not enough to know that good writing is
-[this](https://fluidcircle.net/2020/10/15/make-your-communication-concrete/?ref=localhost)
+[this](/blog/make-your-communication-concrete/)
 or
-[that](https://fluidcircle.net/2020/10/20/make-your-communication-concise/?ref=localhost). Let’s practice it. In various contexts, with various
+[that](/blog/make-your-communication-concise/). Let’s practice it. In various contexts, with various
 kinds of people on the receiving end.
 
 Practice.
@@ -112,7 +112,7 @@ Practice.
 
 Using the LAO framework introduced in
 [💛 Make Your Communication Meaningful (For Your Intended
-Audience)](https://fluidcircle.net/2020/10/22/meaningful/?ref=localhost)
+Audience)](/blog/meaningful/)
 
 **Listen**: Don’t talk. Just listen. If
 there’s a lull in the conversation then ask a short

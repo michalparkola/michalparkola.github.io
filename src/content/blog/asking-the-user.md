@@ -40,7 +40,7 @@ robust undo feature and do
 away with the dialog altogether ;-)
 
 **Note**: the picture was created with
-[Balsamiq Mockups](http://www.balsamiq.com/products/mockups?ref=localhost), a great little app for sketching UIs.
+[Balsamiq Mockups](http://www.balsamiq.com/products/mockups), a great little app for sketching UIs.
 
 **Update January 2012**: I’ve recreated the
 example dialog boxes as they were missing after I moved this

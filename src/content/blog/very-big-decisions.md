@@ -79,4 +79,4 @@ Iterate in short cycles.
 Try it and let me know how it goes for you!
 
 \*
-[Carrot cover by Charles Deluvio via Unsplash](https://unsplash.com/@charlesdeluvio?ref=localhost)
+[Carrot cover by Charles Deluvio via Unsplash](https://unsplash.com/@charlesdeluvio)

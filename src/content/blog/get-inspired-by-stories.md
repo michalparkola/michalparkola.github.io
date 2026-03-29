@@ -37,7 +37,7 @@ When you look closely our goals do not typically appear out of
 the blue. They are often created by comparing our situation to a
 narrative about other people’s experience. As humans we
 have a strong
-[tendency to mimic each other](https://perell.com/essay/peter-thiel/?ref=localhost). And there is no better vehicle than a story to communicate
+[tendency to mimic each other](https://perell.com/essay/peter-thiel/). And there is no better vehicle than a story to communicate
 important challenges and and behaviours of those who stand up to
 them.
 
@@ -50,7 +50,7 @@ read, stories from the best offline and online courses
 we’ve attended, and stories from the ones we’ve
 designed & delivered ourselves.
 
-Stories from great books like [7 Habits of Highly Effective People](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People?ref=localhost), [Time to Think](https://www.timetothink.com/?ref=localhost), and [From Contempt to Curiosity](https://www.amazon.com/Contempt-Curiosity-Conditions-Collaborate-Modelling/dp/0957486618?ref=localhost).
+Stories from great books like [7 Habits of Highly Effective People](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People), [Time to Think](https://www.timetothink.com/), and [From Contempt to Curiosity](https://www.amazon.com/Contempt-Curiosity-Conditions-Collaborate-Modelling/dp/0957486618).
 
 Stories from movies and TV shows about how teams and leaders can
 behave at their best and worst, including: Star Trek, Dune, and
@@ -58,8 +58,8 @@ Lord of the Rings.
 
 And most relevant for the type of experience we’re
 creating right now, there are the stories of several excellent
-online cohort-based courses that I attended, including [Seth Godin’s AltMBA](https://altmba.com/?ref=localhost) (I was part of cohort 33), [Building a Second Brain](https://www.buildingasecondbrain.com/?ref=localhost)(cohort 11) or
-[a Polish course about building courses](https://akademia.pl/fabryka?ref=localhost).
+online cohort-based courses that I attended, including [Seth Godin’s AltMBA](https://altmba.com/) (I was part of cohort 33), [Building a Second Brain](https://www.buildingasecondbrain.com/)(cohort 11) or
+[a Polish course about building courses](https://akademia.pl/fabryka).
 
 It’s stories all the way down.
 

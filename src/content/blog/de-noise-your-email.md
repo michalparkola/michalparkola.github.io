@@ -7,12 +7,12 @@ heroImage: "../../assets/omt-027-envelope.jpeg"
 ---
 If you’ve been reading One Minute Tips for a while or
 you’ve just downloaded your
-[Meeting Overload Rescue Kit](https://pages.fluidcircle.net/mork?ref=localhost)
+Meeting Overload Rescue Kit
 you are familiar with the idea that good communication is
-[concrete](https://fluidcircle.net/2020/10/15/make-your-communication-concrete/?ref=localhost),
-[concise](https://fluidcircle.net/2020/10/20/make-your-communication-concise/?ref=localhost)
+[concrete](/blog/make-your-communication-concrete/),
+[concise](/blog/make-your-communication-concise/)
 and
-[meaningful](https://fluidcircle.net/2020/10/22/meaningful/?ref=localhost).
+[meaningful](/blog/meaningful/).
 
 CCM is useful in a variety of contexts across different
 communication channels and one of the benefits of using it is
@@ -23,7 +23,7 @@ Today we will look at how to
 **de-noise your email** with CCM.
 
 Special offer:
-[send me a sample email](mailto:michal@fluidcircle.net)
+[send me a sample email](mailto:michal@michalparkola.com)
 and I will give you some tips on how to improve it.
 
 ## Start with a good title
@@ -121,7 +121,7 @@ topics to discuss with the same recipient, still consider
 sending separate emails per topic.
 
 Try to condense the relevant information into
-[five sentences or less](http://five.sentenc.es/?ref=localhost).
+[five sentences or less](http://five.sentenc.es/).
 
 Is your email more like a postcard or like a reference document?
 If it’s a reference consider putting the information
@@ -151,7 +151,7 @@ what actions they could or should take.
 
 This one might require you to invest a little effort in
 understanding your recipients. When in doubt:
-[Listen, Ask and Observe](https://fluidcircle.net/2020/10/22/meaningful/?ref=localhost).
+[Listen, Ask and Observe](/blog/meaningful/).
 
 ## What now?
 
@@ -165,11 +165,11 @@ practice, benefit, … rinse, repeat.
 If you’d be interested in more opportunities to practice
 and get real time feedback I’m considering organising an
 online “**De-noise your communication DOJO**“.
-[Let me know if you’d like to attend](mailto:michal@fluidcircle.net).
+[Let me know if you’d like to attend](mailto:michal@michalparkola.com).
 
 See you soon,
 
 Michał
 
 \*
-[envelope picture by Liam Truong via Unsplash](https://unsplash.com/@liamtruong?ref=localhost)
+[envelope picture by Liam Truong via Unsplash](https://unsplash.com/@liamtruong)

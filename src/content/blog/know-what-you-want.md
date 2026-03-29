@@ -6,7 +6,7 @@ updatedDate: 2021-01-30T06:17:48.000Z
 heroImage: "../../assets/omt-029-mountains.jpeg"
 ---
 *\*
-[Mountains picture by Tobias Rademacher via Unsplash](https://unsplash.com/@tobbes_rd?ref=localhost)*
+[Mountains picture by Tobias Rademacher via Unsplash](https://unsplash.com/@tobbes_rd)*
 
 If you don’t know what you want, you’re probably not
 going to get it.
@@ -96,13 +96,13 @@ What about you?
 
 Another tactic that I’m playing with is the concept of
 *progressions* simplified to three levels as
-[described by Mirek Burnejko](https://trzypoziomy.pl/?ref=localhost).
+[described by Mirek Burnejko](https://trzypoziomy.pl/).
 
 It helps bridge the gap between ambitious goals, and achievable
 milestones on your way to that ultimate reward.
 
 For example in fitness my fantasy is to be able to do a full
-[press to handstand](https://www.youtube.com/watch?v=OW_ljV5CBKk&ref=localhost), but if I just think about that goal it seems too far away and
+[press to handstand](https://www.youtube.com/watch?v=OW_ljV5CBKk), but if I just think about that goal it seems too far away and
 I end up not doing much. So I broke it down and now I’m
 working towards a much more realistic 60 sec wall handstand.
 After I hit that goal I can take on the next challenge and in

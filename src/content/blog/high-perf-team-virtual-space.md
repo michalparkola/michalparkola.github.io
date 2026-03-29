@@ -79,7 +79,7 @@ control:
 [![Team Working at Night](../../assets/pexels-photo-256219.jpeg)](../../assets/pexels-photo-256219.jpeg)
 
 Photo by Pixabay on
-[Pexels.com](https://www.pexels.com/photo/men-working-at-night-256219/?ref=localhost)
+[Pexels.com](https://www.pexels.com/photo/men-working-at-night-256219/)
 
 When moving online every team can enjoy this level of support
 for their high-stakes, in-the-moment decision making.

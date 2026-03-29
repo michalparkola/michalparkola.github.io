@@ -15,7 +15,7 @@ Here are some things that I believe are most important:
 Even if you sit in a physical office real work is slowly (or
 sometimes quickly) migrating to online places like Slack, Zoom,
 Trello, Wiki or a
-[full-blown Virtual Space](http://welo.space/?ref=localhost).
+[full-blown Virtual Space](http://welo.space/).
 
 Lurking there is not enough. For team cohesion to develop
 it’s important to see and be seen:
@@ -37,7 +37,7 @@ it’s important to see and be seen:
    intermediate steps as building blocks — build on other
    people’s blocks and let them build on yours. (this is
    the “B” in the
-   [AsyncABC approach to distributed work](https://fluidcircle.net/notes/asyncabc/?ref=localhost)).
+   [AsyncABC approach to distributed work](/blog/enable-knowledge-to-grow-over-time-with-asyncabc/)).
 
 # 2) Rally around a shared purpose
 

@@ -117,4 +117,4 @@ you got that way.
 If you’re a teacher I’d love to talk to you about
 how you teach.
 
-[Let me buy you coffee!](http://mailto:michal@fluidcircle.net/?ref=localhost)
+[Let me buy you coffee!](http://mailto:michal@michalparkola.com/)

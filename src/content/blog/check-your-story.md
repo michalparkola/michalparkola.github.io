@@ -12,14 +12,14 @@ this?
 
 [![](../../assets/check-your-story-heroes-vs-invaders.png)](../../assets/check-your-story-heroes-vs-invaders.png)
 
-[Ancient philosophers knew it](https://en.wikipedia.org/wiki/Allegory_of_the_Cave?ref=localhost) and [modern ones developed the idea](https://en.wikipedia.org/wiki/General_semantics?ref=localhost):
+[Ancient philosophers knew it](https://en.wikipedia.org/wiki/Allegory_of_the_Cave) and [modern ones developed the idea](https://en.wikipedia.org/wiki/General_semantics):
 
 We do NOT have direct access to reality:
 
 1. We **perceive** an extremely small part
-   of it using our [limited and unreliable senses](https://www.theoryofknowledge.net/ways-of-knowing/sense-perception/how-reliable-is-the-knowledge-provided-to-us-by-our-senses/?ref=localhost).
+   of it using our [limited and unreliable senses](https://www.theoryofknowledge.net/ways-of-knowing/sense-perception/how-reliable-is-the-knowledge-provided-to-us-by-our-senses/).
 2. Then we **interpret the meaning** based
-   on our cultural context, past experience, the [vocabulary we wield](https://en.wikipedia.org/wiki/Linguistic_relativity?ref=localhost) and [even our needs and wants](https://en.wikipedia.org/wiki/Motivated_reasoning?ref=localhost).
+   on our cultural context, past experience, the [vocabulary we wield](https://en.wikipedia.org/wiki/Linguistic_relativity) and [even our needs and wants](https://en.wikipedia.org/wiki/Motivated_reasoning).
 3. Then do we **decide what to do**.
 
 And that’s an extremely good thing. Otherwise we wouldn’t be
@@ -31,7 +31,7 @@ let’s just say,
 
 *suboptimal* results.
 
-As [Caitlin Walker teaches us](https://cleanlanguage.co.uk/articles/articles/272/0/Cleaning-up-the-F-word/Page0.html?ref=localhost):
+As [Caitlin Walker teaches us](https://cleanlanguage.co.uk/articles/articles/272/0/Cleaning-up-the-F-word/Page0.html):
 
 1. we should be able to distinguish between
    the **evidence** we see or hear
@@ -41,11 +41,11 @@ As [Caitlin Walker teaches us](https://cleanlanguage.co.uk/articles/articles/27
 Is your story really the most useful story you could be telling
 yourself about the situation?
 
-How would the story change if you [assumed positive intent](https://remoteleader.substack.com/p/be-careful-about-letting-worst-possible?ref=localhost)?
+How would the story change if you [assumed positive intent](https://remoteleader.substack.com/p/be-careful-about-letting-worst-possible)?
 
 Until next time,
 
 Michał
 
 \*
-*[Warriors cover image by Jaime Spaniol via Unsplash](https://unsplash.com/@jaimespaniol?ref=localhost)*
+*[Warriors cover image by Jaime Spaniol via Unsplash](https://unsplash.com/@jaimespaniol)*

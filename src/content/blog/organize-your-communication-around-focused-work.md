@@ -54,7 +54,7 @@ Async is not about a meeting prohibition. We still want to be
 able to talk to each other in smaller and yes, sometimes bigger
 groups. The main idea is to keep the right balance.
 
-Inspired by the [Nozbe communication pyramid](https://nozbe.com/blog/communication-pyramid/?ref=localhost) here’s a simple model that can help you figure out the
+Inspired by the [Nozbe communication pyramid](https://nozbe.com/blog/communication-pyramid/) here’s a simple model that can help you figure out the
 right balance for your team:
 
 ![](../../assets/pyramid-of-healthy-comm.jpg)
@@ -88,4 +88,4 @@ that balance working for you?
 See you soon, Michał
 
 *\*
-[Library photo by Monika Kozum via Unsplash](https://unsplash.com/@berlinboudoir?ref=localhost)*
+[Library photo by Monika Kozum via Unsplash](https://unsplash.com/@berlinboudoir)*

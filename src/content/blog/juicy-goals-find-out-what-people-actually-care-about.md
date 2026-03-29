@@ -39,7 +39,7 @@ work to be like? It's probably not just "less stuff".
 And yes, once we cut into the needs behind a goal it usually
 turns out the inside is complicated. It's full of people with
 varying priorities, organisational boundaries and maybe some
-[seeds from the underworld we should not touch](https://en.wikipedia.org/wiki/Persephone?ref=localhost).
+[seeds from the underworld we should not touch](https://en.wikipedia.org/wiki/Persephone).
 
 We can't let that stop us.
 
@@ -92,7 +92,7 @@ might be most important for them. Validate your assumptions by
 **listening** to what they have to say and
 **observing** what they actually do.
 
-[Impact mapping](https://www.impactmapping.org/?ref=localhost)
+[Impact mapping](https://www.impactmapping.org/)
 might be a useful tool here.
 
 ### You are not done until someone's need was met

@@ -102,4 +102,4 @@ you and your conversation partner are in a
 **GREEN**
 state you’re good to go.
 
-[Owl picture by Mark Timberlake via Unsplash](https://unsplash.com/@mtimber71?ref=localhost)
+[Owl picture by Mark Timberlake via Unsplash](https://unsplash.com/@mtimber71)

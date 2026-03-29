@@ -15,11 +15,11 @@ There are two distinct aspects of empathy:
 I believe understanding feelings is almost always
 useful while co-feeling is not necessary for
 compassion and
-*“[can sometimes lead to stupid or unethical decisions](http://www.vox.com/conversations/2017/1/19/14266230/empathy-morality-ethics-psychology-science-compassion-paul-bloom?ref=localhost)*“.
+*“[can sometimes lead to stupid or unethical decisions](http://www.vox.com/conversations/2017/1/19/14266230/empathy-morality-ethics-psychology-science-compassion-paul-bloom)*“.
 
 ## Compassion
 
-“*[Compassion](https://en.wikipedia.org/wiki/Compassion?ref=localhost)
+“*[Compassion](https://en.wikipedia.org/wiki/Compassion)
 is the response to the suffering of others that motivates a
 desire to help*.”
 

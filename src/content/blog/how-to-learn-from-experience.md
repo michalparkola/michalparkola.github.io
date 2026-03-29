@@ -6,7 +6,7 @@ updatedDate: 2021-10-09T20:00:34.000Z
 heroImage: "../../assets/waterfall-experience-learning.jpg"
 ---
 **This post* is a sneak peek at an idea from*the upcoming book "[Grow Together: Gain Clarity and Momentum in Your Tech
-Leadership Career](http://growtogether.academy/book?ref=localhost)"**
+Leadership Career](http://growtogether.academy/book)"**
 
 At various points in the lifecycle of our projects we like to
 ask about the **lessons** we have
@@ -61,4 +61,4 @@ What are you going to learn from your recent experience?
 *If you like this approach to lessons learned subscribe using
 the button in the bottom right of the window for more ideas
 from
-[the book](http://growtogether.academy/book?ref=localhost).*
+[the book](http://growtogether.academy/book).*

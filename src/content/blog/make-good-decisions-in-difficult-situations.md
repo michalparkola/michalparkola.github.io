@@ -97,4 +97,4 @@ order to get what I want?**
 
 I hope these questions will serves you as well as they did me.
 
-[Foggy forest photo by Sebastian Unrau via Unslash](https://unsplash.com/@sebastian_unrau?ref=localhost)
+[Foggy forest photo by Sebastian Unrau via Unslash](https://unsplash.com/@sebastian_unrau)

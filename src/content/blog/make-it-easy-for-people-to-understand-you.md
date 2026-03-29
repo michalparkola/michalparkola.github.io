@@ -32,10 +32,10 @@ Get ready for problems later.
 
 1) Loyal readers of will be familiar with this: make your
 communication CCM –
-[Concrete](https://fluidcircle.net/2020/10/15/make-your-communication-concrete/?ref=localhost),
-[Concise](https://fluidcircle.net/2020/10/20/make-your-communication-concise/?ref=localhost)
+[Concrete](/blog/make-your-communication-concrete/),
+[Concise](/blog/make-your-communication-concise/)
 and
-[Meaningful (to your intended audience)](https://fluidcircle.net/2020/10/22/meaningful/?ref=localhost).
+[Meaningful (to your intended audience)](/blog/meaningful/).
 
 2) Use simple words and grammatical structures:
 
@@ -43,11 +43,11 @@ and
 * Instead of “perform” write “do”
 * Instead of “optimal” write “best”
 
-[Test your writing using the Hemmingway app](http://www.hemingwayapp.com/?ref=localhost).   
+[Test your writing using the Hemmingway app](http://www.hemingwayapp.com/).   
 (This article gets a “S*chool grade 4 level, good*” where a lower grade means easier to understand).
 
 3) Write as if you were talking to your colleagues. As Kathy
-Sierra put it “[Conversational writing kicks formal writing’s ass](https://headrush.typepad.com/creating_passionate_users/2005/09/conversational_.html?ref=localhost)“
+Sierra put it “[Conversational writing kicks formal writing’s ass](https://headrush.typepad.com/creating_passionate_users/2005/09/conversational_.html)“
 
 4) Use headlings & lists to make things skimmable. Start
 with the most important point. Make details available but not
@@ -56,7 +56,7 @@ applies to the message as a whole as well as each part.
 
 5) Make references concrete. If you’re talking about an
 external resource
-[link to it](https://fluidcircle.net/2020/09/02/show-dont-tell/?ref=localhost). Avoid context-dependent references like “they”,
+[link to it](/blog/show-dont-tell/). Avoid context-dependent references like “they”,
 “that”, “those”. ~~They~~ non-obvious
 references are a common cause of misunderstandings and at best
 require additional efort to untangle.

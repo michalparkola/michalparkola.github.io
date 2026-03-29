@@ -27,8 +27,8 @@ working and try to fix it.
 But some things are more worth the improvement effort than
 others.
 
-That’s why it’s useful to first **[find what’s good](https://mailchi.mp/c3e6427eb2eb/perfection?ref=localhost)**. Then find ways to **turn it up**: repeat,
+That’s why it’s useful to first **[find what’s good](https://mailchi.mp/c3e6427eb2eb/perfection)**. Then find ways to **turn it up**: repeat,
 reinforce, amplify, use in other contexts. Then think
-about **[how to make it even better](https://mailchi.mp/c3e6427eb2eb/perfection?ref=localhost)**.
+about **[how to make it even better](https://mailchi.mp/c3e6427eb2eb/perfection)**.
 
 See you on the other side!

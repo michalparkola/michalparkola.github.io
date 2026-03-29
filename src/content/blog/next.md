@@ -7,7 +7,7 @@ heroImage: "../../assets/next-hero-kid-stairs.jpg"
 ---
 *This post describes one of the key ideas from the upcoming
 book "[Grow Together: Gain Clarity and Momentum in Your Tech
-Leadership Career](http://growtogether.academy/book?ref=localhost)"*
+Leadership Career](http://growtogether.academy/book)"*
 
 When you feel stuck on the way to your long term goals or
 confused about what those goals should even be – don't despair –

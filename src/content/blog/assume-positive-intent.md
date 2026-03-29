@@ -48,4 +48,4 @@ many difficult situations.
 Try it!
 
 \*
-*[Monkeys picture by Aleksey Oryshchenko via Unsplash](https://unsplash.com/@alekseyor?ref=localhost)*
+*[Monkeys picture by Aleksey Oryshchenko via Unsplash](https://unsplash.com/@alekseyor)*

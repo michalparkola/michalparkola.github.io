@@ -6,7 +6,7 @@ updatedDate: 2021-01-30T06:17:48.000Z
 heroImage: "../../assets/omt-019-winding-road.jpeg"
 ---
 There’s a slight wrinkle hidden in the [previous one minute tip about clarifying outcomes and actions
-when you’re stuck](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=1bc2f9ff28&e=f7f2fb2aaa&ref=localhost).
+when you’re stuck](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=1bc2f9ff28&e=f7f2fb2aaa).
 
 I told you to start by **clarifying the outcome** by asking:
 
@@ -82,7 +82,7 @@ See you in the next one,
 
 Michał
 
-\* Winding road image by [Wes Hicks via Unsplash](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=9c70984cfb&e=f7f2fb2aaa&ref=localhost)
+\* Winding road image by [Wes Hicks via Unsplash](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=9c70984cfb&e=f7f2fb2aaa)
 
 **PS**: it might not be a *one minute* tip anymore if it contains appendices, but I hope you
 find it useful anyway ;)

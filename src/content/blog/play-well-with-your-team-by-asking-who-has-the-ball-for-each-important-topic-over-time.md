@@ -46,7 +46,7 @@ regulate.
 Here's one thing that helps.
 
 As the Python community figured out:
-[explicit is better than implicit](https://peps.python.org/pep-0020/?ref=localhost).
+[explicit is better than implicit](https://peps.python.org/pep-0020/).
 
 So in situations where it's not 100% clear (and in some
 situations where *you think* it is):

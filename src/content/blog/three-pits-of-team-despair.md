@@ -6,7 +6,7 @@ updatedDate: 2021-10-09T19:59:32.000Z
 heroImage: "../../assets/the-pit-2.jpg"
 ---
 Our purpose with
-[Grow Together Academy](http://growtogether.academy/?ref=localhost)
+[Grow Together Academy](http://growtogether.academy/)
 is to help more **great teams** happen.
 
 Great teams that **create and learn together**.

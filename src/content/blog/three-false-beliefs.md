@@ -25,4 +25,4 @@ What *I believe is* more accurate:
 
 Do you agree?
 
-[Let me know](mailto:michal@fluidcircle.net).
+[Let me know](mailto:michal@michalparkola.com).

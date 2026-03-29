@@ -27,4 +27,4 @@ implementing this habit?
 If you don’t: why not?
 
 *\*
-[Art gallery photo by Mick Haupt via Unsplash](https://unsplash.com/@rocinante_11?ref=localhost)*
+[Art gallery photo by Mick Haupt via Unsplash](https://unsplash.com/@rocinante_11)*

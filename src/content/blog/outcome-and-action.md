@@ -102,4 +102,4 @@ Clear?
 
 Go on, do it :)
 
-\* Seal image by [Alan Campbell via Unsplash.com](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=52f78c7363&e=f7f2fb2aaa&ref=localhost).
+\* Seal image by [Alan Campbell via Unsplash.com](https://fluidcircle.us3.list-manage.com/track/click?u=c4d60eccbd21776f894b5bb79&id=52f78c7363&e=f7f2fb2aaa).

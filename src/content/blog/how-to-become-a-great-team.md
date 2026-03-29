@@ -11,7 +11,7 @@ team to greatness.
 ## Part One: The Setup
 
 1) **Get clear on what matters most** to you, your team, your customers and the
-organization you are part of. If you’re unsure: [listen, ask and observe](https://fluidcircle.net/2020/10/22/meaningful/?ref=localhost).
+organization you are part of. If you’re unsure: [listen, ask and observe](/blog/meaningful/).
 
 2) **Make the results visible** — there
 are many ways including regular customer interactions, all sorts
@@ -41,10 +41,10 @@ Plan, Do, Reflect
 
 ### Plan
 
-[Clarify outcomes and actions](https://fluidcircle.net/2020/10/30/outcome-and-action/?ref=localhost)
+[Clarify outcomes and actions](/blog/outcome-and-action/)
 
 [If you’re aiming for a far away outcome, focus on the
-first step](https://fluidcircle.net/2020/11/04/%F0%9F%A4%AA-how-to-stay-sane-on-the-road-to-meaningful-outcomes/?ref=localhost)
+first step](/blog/how-to-stay-sane-on-the-road-to-meaningful-outcomes/)
 
 ### Do
 
@@ -62,7 +62,7 @@ I like using the following questions:
 Focus on things you can control more than the things you
 can’t.
 
-When reflecting always [start with what’s good](https://fluidcircle.net/2020/09/07/first-find-the-good/?ref=localhost) and look for ways to [turn it up](https://www.youtube.com/watch?v=Y1u6Hzve6rk&ref=localhost): repeat, reuse and amplify it. If you can’t find
+When reflecting always [start with what’s good](/blog/first-find-the-good/) and look for ways to [turn it up](https://www.youtube.com/watch?v=Y1u6Hzve6rk): repeat, reuse and amplify it. If you can’t find
 the good you’re better off not wasting time listing
 defects.  
   
@@ -120,5 +120,5 @@ See
 you in 10000 hours ;)
 
 \* [Thanks to Justyna Pindel for the “do what you
-can” quote](https://www.agilebook.club/2020/11/01/everyone-is-a-change-agent-by-april-mills/?ref=localhost).  
-\*\* [Great team photo by Tobias Mrzyk via Unsplash](https://unsplash.com/@tobiasmrzyk?ref=localhost)
+can” quote](https://www.agilebook.club/2020/11/01/everyone-is-a-change-agent-by-april-mills/).  
+\*\* [Great team photo by Tobias Mrzyk via Unsplash](https://unsplash.com/@tobiasmrzyk)

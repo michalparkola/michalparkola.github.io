@@ -4,7 +4,7 @@ description: "In a strict sense the role of a Scrum Master is defined in the Scr
 pubDate: 2014-05-29T17:34:50.000Z
 updatedDate: 2021-01-05T20:25:56.000Z
 ---
-In a strict sense the role of a Scrum Master is defined in the [Scrum Guide](https://www.scrum.org/Scrum-Guide?ref=localhost) as:
+In a strict sense the role of a Scrum Master is defined in the [Scrum Guide](https://www.scrum.org/Scrum-Guide) as:
 
 > “*The Scrum Master is responsible for ensuring Scrum is understood and enacted. Scrum Masters do this by ensuring that the Scrum Team adheres to Scrum theory, practices, and rules.*“
 
@@ -33,15 +33,15 @@ I don’t know about you, but I’d probably **strangle** the guy.
 
 If you make this mistake you deserve:
 
-*(But do keep in mind that [Scrum Shock Therapy](http://scrum.jeffsutherland.com/2012/01/scrum-shock-therapy-how-to-change-teams.html?ref=localhost) is an option *if* the team accepts the challenge willingly.)*
+*(But do keep in mind that [Scrum Shock Therapy](http://scrum.jeffsutherland.com/2012/01/scrum-shock-therapy-how-to-change-teams.html) is an option *if* the team accepts the challenge willingly.)*
 
 So how can you go about helping a new team in a less confrontational way?
 
 # **sm-listenStep 1)** Get to know them, let them get to know you.
 
-A more promising way would be to first *[seek first to understand and then to be understood](https://www.stephencovey.com/7habits/7habits-habit5.php?ref=localhost)*.
+A more promising way would be to first *[seek first to understand and then to be understood](https://www.stephencovey.com/7habits/7habits-habit5.php)*.
 
-In the immortal words of Deckard Cain “*[stay a while and listen](https://www.youtube.com/watch?v=tAVVy_x3Erg&ref=localhost)*“.
+In the immortal words of Deckard Cain “*[stay a while and listen](https://www.youtube.com/watch?v=tAVVy_x3Erg)*“.
 
 While you’re learning about the company and the team and also letting them learn about you …
 
@@ -61,7 +61,7 @@ The best Scrum Masters don’t tell people what the problems are and how to sol
 
 They **make reality painfully obvious** so that the team can see it themselves.
 
-A lot can be written about retrospectives and [a](http://www.funretrospectives.com/?ref=localhost) [lot](http://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649?ref=localhost) [has](http://retrospectivewiki.org/index.php?title=Main_Page&ref=localhost) [been](http://fluidcircle.net/2013/03/06/dzien-16-retrospekcje-popatrz-w-tyl-zeby-isc-w-przod/?ref=localhost), but for now keep in mind:
+A lot can be written about retrospectives and [a](http://www.funretrospectives.com/) [lot](http://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649) [has](http://retrospectivewiki.org/index.php?title=Main_Page) [been](), but for now keep in mind:
 
 * focus on the facts, not opinions; de-escalate emotional conflicts as much as you can,
 * try to find the root cause, don’t stop at treating the symptoms,
@@ -76,16 +76,16 @@ After some time *slowly* you can reach for more and more tools and then the 
 
 Do you want to learn more? Check out:
 
-* [The Scrum Guide](https://www.scrum.org/Scrum-Guide?ref=localhost)
-* [Funny Scrum Master video](https://www.youtube.com/watch?v=oheekef7oJk&ref=localhost)
-* [Scrum](http://scrum.jeffsutherland.com/2012/01/scrum-shock-therapy-how-to-change-teams.html?ref=localhost) [Shock](http://www.rapidscrum.com/shock.php?ref=localhost) [Therapy](http://www.christiaanverwijs.nl/post/2013/07/03/Implementing-Scrum-from-shock-therapy-to-emergent-change1.aspx?ref=localhost)
-* [“Coaching Agile Teams”](http://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley/dp/0321637704/ref=pd_bxgy_b_text_y?ref=localhost)
-* [“Agile Coaching”](http://www.amazon.com/Agile-Coaching-Rachel-Davies/dp/1934356433/ref=pd_sim_b_5?ie=UTF8&refRID=0MBHK76ZTNFS8G0FB8DM&ref=localhost)
-* “[Agile Retrospectives](http://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649?ref=localhost)“
+* [The Scrum Guide](https://www.scrum.org/Scrum-Guide)
+* [Funny Scrum Master video](https://www.youtube.com/watch?v=oheekef7oJk)
+* [Scrum](http://scrum.jeffsutherland.com/2012/01/scrum-shock-therapy-how-to-change-teams.html) [Shock](http://www.rapidscrum.com/shock.php) [Therapy](http://www.christiaanverwijs.nl/post/2013/07/03/Implementing-Scrum-from-shock-therapy-to-emergent-change1.aspx)
+* [“Coaching Agile Teams”](http://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley/dp/0321637704/ref=pd_bxgy_b_text_y)
+* [“Agile Coaching”](http://www.amazon.com/Agile-Coaching-Rachel-Davies/dp/1934356433/ref=pd_sim_b_5?ie=UTF8&refRID=0MBHK76ZTNFS8G0FB8DM)
+* “[Agile Retrospectives](http://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649)“
 
 Outside the box:
 
-* [Crossfit: Coaching the Positive](http://journal.crossfit.com/2012/07/cfj-againfaster-box-coachingpostive.tpl?ref=localhost)
+* [Crossfit: Coaching the Positive](http://journal.crossfit.com/2012/07/cfj-againfaster-box-coachingpostive.tpl)
 
 User stories for this post:
 

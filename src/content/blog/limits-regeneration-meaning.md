@@ -7,7 +7,7 @@ heroImage: "../../assets/omt-029-eggs.jpeg"
 featured: true
 ---
 \*
-[Eggs picture by Tengyart via Unsplash.com](https://unsplash.com/@tengyart?ref=localhost)
+[Eggs picture by Tengyart via Unsplash.com](https://unsplash.com/@tengyart)
 
 Autumn was a busy time for me and my girlfriend.
 
@@ -52,18 +52,18 @@ a) feel more satisfied when you inevitably have to cut off your
 todo list b) you will generate more actual value and everyone
 will be happier even if you drop some of the lower-value items.
 See
-[here](https://produktywni.pl/en/?ref=localhost) or
-[here](https://jdmeier.com/agile-results-on-a-page/?ref=localhost)
+[here](https://produktywni.pl/en/) or
+[here](https://jdmeier.com/agile-results-on-a-page/)
 for more about this.
 
 Do not let work spread it’s tentacles throughout your
 whole life. Have a defined end time. Have a separate work-space.
 Consider a transition routine to underline when you’re
 working and when you’re NOT working. For example my friend
-[Lisette](http://collaborationsuperpowers.com/?ref=localhost)
+[Lisette](http://collaborationsuperpowers.com/)
 has a husband-negotiated window of hours she is allowed to work
 in.
-[SoftwareMillers](http://softwaremill.com/?ref=localhost)
+[SoftwareMillers](http://softwaremill.com/)
 has a habit of “signing off” on Slack to indicate
 the end of their work day.
 
@@ -79,14 +79,14 @@ lunch break. Don’t wake up with a wall of back-to-back
 meetings all day, every day.
 
 If this is a pain point for you might want to check out the
-[Meeting Overload Rescue Kit](http://pages.fluidcircle.net/mork?ref=localhost). Let me know if you want to chat about how to apply it with
+Meeting Overload Rescue Kit. Let me know if you want to chat about how to apply it with
 your team.
 
 ## Regeneration
 
 Make sure you’re getting
-[enough high-quality **sleep**](https://www.youtube.com/watch?v=cteidxwSPSE&ref=localhost), you’re
-[**eating** well](http://nutritionfacts.org/?ref=localhost)
+[enough high-quality **sleep**](https://www.youtube.com/watch?v=cteidxwSPSE), you’re
+[**eating** well](http://nutritionfacts.org/)
 and **drinking** enough water. Forgive the graphic
 example, but your pee should be light yellow – if it’s
 dark in color you are dehydrated.
@@ -100,13 +100,13 @@ An hour-long brisk walk every day is a good base.
 
 If you want more online training is a thing – not even counting
 the
-[massive](https://www.youtube.com/user/JDCav24?ref=localhost)
-[number](https://www.youtube.com/user/CaliforniaStrength?ref=localhost)
+[massive](https://www.youtube.com/user/JDCav24)
+[number](https://www.youtube.com/user/CaliforniaStrength)
 of
-[pre-recorded](https://www.youtube.com/user/yogawithadriene?ref=localhost),
-[follow-along workouts](https://www.youtube.com/channel/UCciuZl2ydLCvN5txlLW0rIg?ref=localhost)
+[pre-recorded](https://www.youtube.com/user/yogawithadriene),
+[follow-along workouts](https://www.youtube.com/channel/UCciuZl2ydLCvN5txlLW0rIg)
 on youtube there are many
-[live group classes](https://akademiawgr.pl/?ref=localhost)
+[live group classes](https://akademiawgr.pl/)
 to motivate you and even
 [online personal training](https://www.facebook.com/fitpasterz).
 
