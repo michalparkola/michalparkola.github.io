@@ -16,7 +16,7 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/images/2024-03-GTA-spring-logo.png" />
     <meta name="generator" content={Astro.generator} />
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
@@ -41,9 +41,9 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     <header>
       <nav>
         <div class="header-title">
-          <img 
-            class="header-logo" 
-            src="/images/2024-03-GTA-spring-logo.png" 
+          <img
+            class="header-logo"
+            src="/images/2024-03-GTA-spring-logo.png"
             alt="Michał Parkoła"
           />
           <div class="header-text">
@@ -52,20 +52,20 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
           </div>
         </div>
         <div>
-          
+
           <a href="https://michalparkola.gumroad.com/">Books</a>
-          <a href="https://www.linkedin.com/in/michalparkola/">LinkedIn</a>
-          <a href="https://twitter.com/michalparkola">Twitter</a>
+          <a href="https://www.linkedin.com/in/michalparkola/">LI</a>
+          <a href="https://twitter.com/michalparkola">X</a>
           <a href="https://GrowWithTapestry.com/">GrowWithTapestry.com</a>
-          <a href="https://michalparkola.com/splotka">Splotka</a>
+
         </div>
       </nav>
     </header>
-    
+
     <main>
       <slot />
     </main>
-    
+
     <footer>
       <p>Michał Parkoła © 2026</p>
     </footer>
@@ -79,13 +79,13 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     padding: 0;
     line-height: 1.6;
   }
-  
+
   header {
     background: #fff;
     border-bottom: 1px solid #eee;
     padding: 1rem 0;
   }
-  
+
   nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -94,36 +94,36 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     justify-content: space-between;
     align-items: center;
   }
-  
+
   nav a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
   }
-  
+
   .header-title {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
-  
+
   .header-logo {
     width: 60px;
     height: 60px;
     border-radius: 50%;
   }
-  
+
   .header-text {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
   }
-  
+
   .name-link {
     font-size: 1.25rem;
     font-weight: 700;
   }
-  
+
   .subtitle {
     margin: 0;
     font-size: 0.875rem;
@@ -131,36 +131,36 @@ const { title, description = "I'm an entrepreneur, former senior engineering man
     font-weight: 400;
     max-width: 500px;
   }
-  
+
   nav > div:last-child {
     display: flex;
     gap: 2rem;
   }
-  
+
   main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
     min-height: calc(100vh - 200px);
   }
-  
+
   footer {
     background: #f8f9fa;
     text-align: center;
     padding: 2rem;
     margin-top: 4rem;
   }
-  
+
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
       gap: 1rem;
     }
-    
+
     nav div {
       gap: 1rem;
     }
-    
+
     main {
       padding: 1rem;
     }
