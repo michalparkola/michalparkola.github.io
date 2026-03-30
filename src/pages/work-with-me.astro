@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Work With Me — Michał Parkoła"
+  description="I help software founders scale delivery and operations from 5 to 50 people."
+>
+  <div class="page">
+    <h1>Work with me</h1>
+
+    <p class="lede">
+      I help software founders who've outgrown the "everyone does everything" phase
+      but aren't yet big enough for a full C-suite. I bring structure to delivery,
+      operations and people — so you can focus on product and customers.
+    </p>
+
+    <section>
+      <h2>How I can help</h2>
+
+      <div class="modes">
+        <div class="mode">
+          <h3>Head of Delivery</h3>
+          <p>
+            Full-time, embedded in your team. I own the delivery process end-to-end:
+            sprint cadence, cross-team coordination, shipping predictability, removing
+            bottlenecks. You stop being the project manager.
+          </p>
+        </div>
+
+        <div class="mode">
+          <h3>Fractional COO</h3>
+          <p>
+            Part-time, typically 2-3 days/week. I set up and run the operational
+            backbone — hiring pipelines, team structure, planning rhythms, internal
+            communication — so the company works even when you're not in every meeting.
+          </p>
+        </div>
+
+        <div class="mode">
+          <h3>Management Consulting</h3>
+          <p>
+            Focused engagements for specific problems: scaling the team, fixing a broken
+            delivery process, preparing for a growth phase. I diagnose, recommend and
+            help implement — then get out of the way.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Who this is for</h2>
+      <ul>
+        <li>Software founders running companies with <strong>5-50 people</strong></li>
+        <li>You've proven product-market fit but delivery is becoming the bottleneck</li>
+        <li>You're hiring faster than you can onboard</li>
+        <li>You know you need management structure but don't want bureaucracy</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Background</h2>
+      <p>
+        15+ years in software — from hands-on engineering through senior engineering
+        management and agile coaching. I've scaled teams, shipped products and built
+        the processes that let both happen repeatably. I write about delivery, teams
+        and leadership on <a href="/">this blog</a> and have published
+        <a href="https://michalparkola.gumroad.com/">several books</a> on the topic.
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/michalparkola/">Full background on LinkedIn →</a>
+      </p>
+    </section>
+
+    <section class="cta">
+      <h2>Let's talk</h2>
+      <p>
+        Email me at <a href="mailto:michal@michalparkola.com">michal@michalparkola.com</a>
+        with a few sentences about your situation. I'll reply within 2 business days.
+      </p>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+
+  .lede {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 3rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  .modes {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .mode {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+
+  .mode h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+
+  .mode p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+    line-height: 1.8;
+    color: #444;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    line-height: 1.7;
+    color: #444;
+  }
+
+  a {
+    color: #5C8D11;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .cta {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .cta h2 {
+    margin-top: 0;
+  }
+
+  .cta p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .lede {
+      font-size: 1.05rem;
+    }
+  }
+</style>
