@@ -1,5 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import tomaszPhoto from "../assets/tomasz-szymanski.jpeg";
+import mariuszPhoto from "../assets/mariusz-gadarkowski.jpeg";
+import mateuszPhoto from "../assets/mateusz-eichler.jpeg";
 ---
 
 <BaseLayout
@@ -77,6 +81,95 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             </p>
         </section>
 
+        <section class="testimonials">
+            <h2>What people say</h2>
+            <div class="video-grid">
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube.com/embed/Q66lrF22_cc"
+                        title="Testimonial — agile transformation"
+                        allowfullscreen
+                        loading="lazy"></iframe>
+                    <p class="caption">
+                        On leading an agile transformation together at a large
+                        corporation
+                    </p>
+                </div>
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube.com/embed/TXmvprnDfSU"
+                        title="Testimonial — engineering growth"
+                        allowfullscreen
+                        loading="lazy"></iframe>
+                    <p class="caption">
+                        An engineer I managed — grew from mid to staff level in
+                        about 2 years
+                    </p>
+                </div>
+            </div>
+
+            <div class="quotes">
+                <blockquote>
+                    <Image
+                        src={mariuszPhoto}
+                        alt="Mariusz Gądarkowski"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "Thanks to his support, we avoided common mistakes
+                            and applied new practices with full understanding of
+                            the principles and values behind them."
+                        </p>
+                        <cite>Mariusz Gądarkowski — CTO, Gemius</cite>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <Image
+                        src={tomaszPhoto}
+                        alt="Tomasz Szymański"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "Michał proved to be a very valuable product owner
+                            with very strict focus on providing business value.
+                            He is a perfect fit for a product-oriented company."
+                        </p>
+                        <cite>Tomasz Szymański — CEO, SoftwareMill</cite>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <Image
+                        src={mateuszPhoto}
+                        alt="Mateusz Eichler"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "His intelligence, creativity and drive allowed him
+                            to add value at all stages of product development:
+                            from business analysis to functional design as well
+                            as marketing and sales."
+                        </p>
+                        <cite
+                            >Mateusz Eichler — Director, Altkom Software &
+                            Consulting</cite
+                        >
+                    </div>
+                </blockquote>
+            </div>
+        </section>
+
         <section class="cta">
             <h2>Let's talk</h2>
             <p>
@@ -107,6 +200,58 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         font-size: 1.5rem;
         color: #2c3e50;
         margin-bottom: 1rem;
+    }
+
+    .quotes {
+        margin-top: 2rem;
+    }
+
+    .quotes blockquote {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .quote-photo {
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .quotes blockquote p {
+        margin: 0 0 0.25rem 0;
+        font-style: italic;
+    }
+
+    .quotes cite {
+        font-style: normal;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .video .caption {
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    @media (max-width: 600px) {
+        .video-grid {
+            grid-template-columns: 1fr;
+        }
     }
 
     ul {
