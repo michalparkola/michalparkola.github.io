@@ -1,5 +1,5 @@
 ---
-title: "Create Psychological Safety to Get Better Teamwork"
+title: "🦺 Create Psychological Safety to Get Better Teamwork"
 description: "Have you ever experienced that another co-worker didn’t want to listen to your feedback, even though it would clearly improve their performance? Did an important project fail because an employee di..."
 pubDate: 2019-05-31T11:11:00.000Z
 updatedDate: 2021-01-05T20:22:13.000Z
