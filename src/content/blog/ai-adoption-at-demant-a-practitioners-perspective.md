@@ -6,7 +6,7 @@ pubDate: 2026-05-03
 
 Interview with Jakub Anderwald, Demant R&D. Quotes translated from Polish.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XFzRUL4uIus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="position:relative;width:100%;aspect-ratio:16/9;"><iframe style="position:absolute;inset:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/XFzRUL4uIus" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 ## About the Company and the Challenge
 
