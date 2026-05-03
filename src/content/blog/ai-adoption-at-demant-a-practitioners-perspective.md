@@ -60,7 +60,7 @@ Data sits across many systems, many of them legacy: stable, working, and closed 
 
 The team built MCP servers for Confluence and Jira on-prem (Atlassian deprioritized AI access for self-hosted), wired them into developer tools, and helped teams extract value from the new context.
 
-The technical build took days. The harder part was adoption: getting product managers used to browsers and Slack questions to switch to VS Code, understand MCP, grasp where the model gets steered.
+The technical build took days. The harder part was adoption: getting product managers used to browsers and Teams questions to switch to VS Code, understand MCP, grasp where the model gets steered.
 
 > "More hours went into that than into building the software itself."
 
@@ -112,7 +112,7 @@ AI in hardware development looks completely different from AI in software. Desig
 
 > "I have no idea what I'm talking about right now."
 
-A recent gathering of practitioners (Kent Beck and Agile Manifesto folks plus people from OpenAI, Anthropic, and book authors) reached the same conclusion:
+A recent gathering of practitioners (Martin Fowler, Kent Beck – Agile Manifesto folks plus people from OpenAI, Anthropic, and book authors) reached the same conclusion:
 
 > "Nobody has the full picture. Everyone experiments, everyone knows one piece and is completely unaware of another."
 
