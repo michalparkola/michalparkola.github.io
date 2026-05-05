@@ -2,6 +2,7 @@
 title: "🦻 AI Adoption at a 120 Year Old Company: A Practitioner's Perspective"
 description: "Interview with Jakub Anderwald, Demant R&D, on driving AI adoption across a 1,300-person hardware and software organization."
 pubDate: 2026-05-03
+socialImage: ../../assets/anderwald-preview.jpeg
 ---
 
 Interview with Jakub Anderwald, Demant R&D. Quotes translated from Polish.
