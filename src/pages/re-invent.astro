@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import magicModel from "../assets/re-invent-magic-model.png";
 ---
 
 <BaseLayout
@@ -224,6 +226,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
                 Do zobaczenia,<br />Michał Parkoła, twórca re_invent
             </p>
         </section>
+
+        <section class="one-picture">
+            <h2>PS. Tak wygląda re_invent na jednym obrazku</h2>
+            <p>Cel, przeszkody i metody:</p>
+            <Image
+                src={magicModel}
+                alt="re_invent na jednym obrazku: w środku cel — klientom błyszczą się oczy, 5 ciepłych rozmów z zimnej komunikacji; wokół trzy przeszkody — rozmieniasz się na drobne, działasz na ślepo, niepewna przyszłość; oraz dziewięć kroków w trzech fazach — obiecująca nisza, zmapowana nisza, zweryfikowana nisza"
+                class="magic-model"
+                width={800}
+                format="webp"
+                quality={85}
+            />
+        </section>
     </div>
 </BaseLayout>
 
@@ -341,6 +356,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         margin-top: 1.5rem;
         margin-bottom: 0;
         font-style: italic;
+    }
+
+    .magic-model {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
     }
 
     @media (max-width: 600px) {
