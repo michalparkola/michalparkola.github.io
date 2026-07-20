@@ -81,7 +81,7 @@ const categories: Record<string, string[]> = {
 const grouped = Object.entries(categories).map(([name, slugs]) => ({
   name,
   posts: slugs
-    .map((slug) => allPosts.find((p) => p.slug === slug))
+    .map((slug) => allPosts.find((p) => p.id === slug))
     .filter(Boolean),
 }));
 ---
@@ -93,7 +93,7 @@ const grouped = Object.entries(categories).map(([name, slugs]) => ({
       <ul class="posts">
         {group.posts.map((post) => (
           <li>
-            <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+            <a href={`/blog/${post.id}/`}>{post.data.title}</a>
           </li>
         ))}
       </ul>

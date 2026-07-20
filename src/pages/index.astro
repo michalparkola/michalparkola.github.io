@@ -15,7 +15,7 @@ const pickedSlugs = [
 
 const allPosts = await getCollection("blog");
 const pickedPosts = pickedSlugs
-    .map((slug) => allPosts.find((p) => p.slug === slug))
+    .map((slug) => allPosts.find((p) => p.id === slug))
     .filter(Boolean);
 ---
 
@@ -42,9 +42,9 @@ const pickedPosts = pickedSlugs
                 Me? I solve discovery and delivery problems for software
                 founders. I helped scale <a href="https://appsilon.com/"
                     >Appsilon</a
-                > from 25 to 100 people in about 2 years. Now I run <a
-                    href="http://GrowWithTapestry.com">GrowWithTapestry.com</a
-                > and build <a href="http://Tapestry.Tools">Tapestry.Tools</a>.
+                > from 25 to 100 people in about 2 years. Now I'm running <a
+                    href="/re-invent/">re_invent</a> and building <a
+                    href="http://Tapestry.Tools">Tapestry.Tools</a>.
             </p>
 
             <p class="cta">
@@ -52,26 +52,32 @@ const pickedPosts = pickedSlugs
             </p>
         </section>
 
+        <section class="highlight">
+            <p>
+                <strong>🌱 Enrolling now: <a href="/re-invent/">re_invent</a></strong>
+                — a 4-week program for software founders: pick a
+                niche you can win, build an offer grounded in real customer
+                interviews, and validate it by booking 5 warm sales calls from
+                cold outreach. Second edition starts mid-August — 4 spots,
+                enrollment closes July 31. <a href="/re-invent/">Details →</a>
+            </p>
+        </section>
+
         <section class="projects">
             <h2>Projects</h2>
             <ul>
                 <li>
-                    🧶 <a href="https://GrowWithTapestry.com/">PlanDoReview</a> (part
-                    of Tapestry) — AI planning partner for founders and teams
+                    🌱 <a href="/re-invent/">re_invent</a> — find the niche you can
+                    win: a 4-week program for software founders
                 </li>
                 <li>
-                    📺 <a href="https://DoBetter.GrowWithTapestry.com"
-                        >DoBetter</a
-                    > (part of Tapestry) — turn YouTube videos into actionable plans
-                    in your context
+                    🧶 <a href="https://Tapestry.Tools">Tapestry.Tools</a> — a suite
+                    of tools that turn ideas into actions and make progress visible
+                    across people and AI agents
                 </li>
                 <li>
                     🧠 A private <strong>mastermind</strong> for CEOs navigating the
                     transition to AI (contact me if you're interested)
-                </li>
-                <li>
-                    ✉️ A <strong>newsletter</strong> for founders in the age of AI
-                    (coming soon)
                 </li>
             </ul>
         </section>
@@ -82,7 +88,7 @@ const pickedPosts = pickedSlugs
                 {
                     pickedPosts.map((post) => (
                         <li>
-                            <a href={`/blog/${post.slug}/`}>
+                            <a href={`/blog/${post.id}/`}>
                                 {post.data.title}
                             </a>
                         </li>
@@ -159,6 +165,27 @@ const pickedPosts = pickedSlugs
         font-size: 1.5rem;
         color: #2c3e50;
         margin-bottom: 1rem;
+    }
+
+    .highlight {
+        background: #f4f9ec;
+        border-left: 4px solid #5c8d11;
+        border-radius: 0 8px 8px 0;
+        padding: 1rem 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .highlight p {
+        margin: 0;
+    }
+
+    .highlight a {
+        color: #5c8d11;
+        text-decoration: none;
+    }
+
+    .highlight a:hover {
+        text-decoration: underline;
     }
 
     .projects,
