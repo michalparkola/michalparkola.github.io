@@ -1,5 +1,5 @@
 ---
-title: "Using Claude as Your Strategic Advisor"
+title: "🤖 Using Claude as Your Strategic Advisor"
 description: "A step-by-step guide to turn Claude into a context-aware advisor for your business."
 pubDate: 2026-05-13
 socialImage: "../../assets/tapestry-doc-ock.webp"
