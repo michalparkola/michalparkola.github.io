@@ -64,7 +64,7 @@ How do i feel about it?**
 
 ## Step 3) What do I want?
 
-Beyond the knee-jerk reaction —
+Beyond the knee-jerk reaction -
 **What is it that I would actually like to have happen? What
 are my needs or values that I want to satisfy or protect? What
 virtues would I most like to uphold?**

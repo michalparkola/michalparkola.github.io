@@ -47,7 +47,7 @@ state is usually a mistake.
 
 When you’re in the
 **RED**
-zone — pause, take a deep breath and consider what it is that
+zone, pause, take a deep breath and consider what it is that
 you’re actually trying to achieve here.
 
 For example if you want to continue having a good relationship
@@ -59,7 +59,7 @@ Turning the tension into a joke might also help!
 ## **AMBER**
 
 **AMBER**
-means you’re unsure about the situation you are in — most
+means you’re unsure about the situation you are in, most
 importantly the kind and quality of relationship you have with
 the people around you.
 
@@ -70,7 +70,7 @@ you’re starting to thinking they might secretly hate your
 guts.
 
 **AMBER**
-could also be caused by physical discomfort — being hungry, cold
+could also be caused by physical discomfort, being hungry, cold
 or sleep-deprived.
 
 An

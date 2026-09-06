@@ -14,10 +14,10 @@ Let me explain:
 What counts as *communicating well* depends on
 the purpose:
 
-1. if it’s information — is it easy to understand and relevant to
+1. if it’s information, is it easy to understand and relevant to
    what the audience cares about?
-2. if the purpose is influence — does it move people to action?
-3. if it’s a question — is easy to answer with the right
+2. if the purpose is influence, does it move people to action?
+3. if it’s a question, is easy to answer with the right
    information?
 
 **In short chunks**

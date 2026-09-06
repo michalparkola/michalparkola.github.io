@@ -107,7 +107,7 @@ talking to our co-workers?
 * **DO**paraphrase what the other person said
   to let them know you’re really listening and to make
   sure you understood them correctly.
-* **DO**accept healthy disagreements —
+* **DO**accept healthy disagreements -
   it’s useful to consider various ways of looking at the
   problem without seeing it as a threat.
 

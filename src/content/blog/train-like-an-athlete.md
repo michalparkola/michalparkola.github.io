@@ -139,7 +139,7 @@ saw and heard from what you interpret it to mean.
 One rep is one concrete action noted separately from your
 analysis of it.
 
-—
+-
 
 And what what skill would you most like to practice, practice,
 practice?

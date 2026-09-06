@@ -37,17 +37,17 @@ Healthy organizations
 (A principle
 [I learned from Kanban](https://resources.kanban.university/kanbans-change-management-principles/).)
 
-If you are a formal leader — what acts of leadership do you
+If you are a formal leader, what acts of leadership do you
 perform most often? How can you do more of that, more
 consistently, in more contexts?
 
 Can you encourage others to do it too?
 
-If you’re responsible for shaping of an organization —
+If you’re responsible for shaping of an organization -
 what kinds of leadership does it enable and encourage and which
 does it frown upon or obstruct?
 
-If you’re none of the above — is there something you care
+If you’re none of the above, is there something you care
 about, that is not taken care of at the moment? How can you take
 care of that thing and invite others to join you?
 

@@ -23,10 +23,10 @@ meeting.
 Either way clarifying can help.
 
 **Clarify** to reduce the risk of unpleasant
-surprises — if things are unclear, you’re unlikely to get
+surprises, if things are unclear, you’re unlikely to get
 what you want.
 
-**Clarify** to get unstuck — ambiguity is
+**Clarify** to get unstuck - ambiguity is
 a major driver of procrastination.
 
 **How?**
@@ -69,7 +69,7 @@ the task within 10 seconds.
 Now that’s something you can *see*. Start the
 clock. Go. Task complete. Where is the seconds hand?
 
-It might feel pedantic at first — but I promise —
+It might feel pedantic at first, but I promise -
 it *will* pay dividends.
 
 Ok, back to your topic: How will you know that it happened?

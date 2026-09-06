@@ -15,7 +15,7 @@ By the end of 2019, I had *proof.* Thanks to
 those early experiments and my experience in Seth Godin’s
 AltMBA (cohort 33).
 
-As I write this in early 2021 the point is pretty much moot —
+As I write this in early 2021 the point is pretty much moot -
 almost all learning is online.
 
 So instead of

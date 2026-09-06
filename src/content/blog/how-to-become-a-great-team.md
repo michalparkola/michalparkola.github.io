@@ -13,12 +13,12 @@ team to greatness.
 1) **Get clear on what matters most** to you, your team, your customers and the
 organization you are part of. If you’re unsure: [listen, ask and observe](/blog/meaningful/).
 
-2) **Make the results visible** — there
+2) **Make the results visible** - there
 are many ways including regular customer interactions, all sorts
 of reports and dashboards, converations, mini-documentaries,
 boards, props, and more.
 
-3) **Make the actions and interactions visible** — invite people to observe your meetings, record
+3) **Make the actions and interactions visible** - invite people to observe your meetings, record
 presentations, make automated transcripts, save chat and email
 archives, archive commits and code review
 comments, exchange ideas in a team wiki or a even a bunch
@@ -96,7 +96,7 @@ to turbo charge the process by getting targeted feedback on each
 important part of your process.
 
 Get that feedback from the best possible source for each element
-— that includes the person on your team who’s the
+- that includes the person on your team who’s the
 best available expert at some particular discipline, veterans in
 other parts of the org or people you bring from outside for this
 specific purpose.

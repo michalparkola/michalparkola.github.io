@@ -24,7 +24,7 @@ it’s important to see and be seen:
    sure to have good **framing** (more or less eye
    level, with your head and shoulders filling the screen) and
    **light** (on your face, not from behind you
-   — you’re not in witness protection yet) as well as
+  , you’re not in witness protection yet) as well as
    clear **audio**.
 2. **Use your actual face as your avatar** across
    all communication channels (Slack, Trello/Jira, your virtual
@@ -33,8 +33,8 @@ it’s important to see and be seen:
 3. And last but not least:
    **make meaningful contributions to online discussions**
    in Slack, comments on tickets, shared docs, etc. Don’t
-   wait for your final deliverable to be ready — package
-   intermediate steps as building blocks — build on other
+   wait for your final deliverable to be ready, package
+   intermediate steps as building blocks, build on other
    people’s blocks and let them build on yours. (this is
    the “B” in the
    [AsyncABC approach to distributed work](/blog/enable-knowledge-to-grow-over-time-with-asyncabc/)).
@@ -67,9 +67,9 @@ you’ve come and your junior colleagues will be able to
 engage more deeply with what your team went through to get to
 where you are.
 
-You don’t have to put a massive effort into it either —
+You don’t have to put a massive effort into it either -
 it’s enough to set up the right tools and from time to
-time capture things that happen anyway — screenshots from your
+time capture things that happen anyway, screenshots from your
 MVP, pics from an initial meeting with your first customer,
 articles written about your product in a major outlet, people
 joining or leaving the team.

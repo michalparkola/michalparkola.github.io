@@ -54,7 +54,7 @@ All that is hidden in various tools that we can interact with
 through our screens.
 
 When designing a virtual environment for a high-performance team
-— why try to replicate the most boring and irrelevant, or even
+- why try to replicate the most boring and irrelevant, or even
 hated, parts of legacy office spaces?
 
 We should be able to make the work clearly visible and
@@ -135,11 +135,11 @@ with an ability to look at what the conversation is about.
 High-performance distributed teams need to be able to
 **easily and reliably see the meaningful aspects of each
 other’s status and activity**
-— enough to make key decisions but not too much that it
+- enough to make key decisions but not too much that it
 would obfuscate more than illuminate or intrude on that
 person’s privacy.
 
-For example — focus mode:
+For example, focus mode:
 
 1. who’s **available to talk right now**?
 2. who’s in a meeting and
@@ -158,7 +158,7 @@ terms of focus and interactions.
 
 For example:
 
-If I’m in a meeting or focus bubble right now — schedule
+If I’m in a meeting or focus bubble right now, schedule
 other messages from teammates to be delivered after the bubble
-pops — and when it does, deliver it using my preferred method
+pops, and when it does, deliver it using my preferred method
 (email, slack, …).

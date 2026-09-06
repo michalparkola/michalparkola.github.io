@@ -40,7 +40,7 @@ What should I do?
 Be specific:
 
 Instead of “Problem” write
-*what kind of* problem or even better — what the impact
+*what kind of* problem or even better, what the impact
 is or was.
 
 Question or request? Consider putting it directly in the title.
@@ -48,7 +48,7 @@ Question or request? Consider putting it directly in the title.
 DO NOT reply to long email chains introducing new topics but
 keeping the old title
 
-DO NOT use overly clever or clickbait’y titles — be as
+DO NOT use overly clever or clickbait’y titles, be as
 direct as possible
 
 What about the length of the title?
@@ -84,7 +84,7 @@ If you need more detail: Where? How? Why?
 
 Add links or screenshots where appropriate.
 
-If it’s a request — clearly state what you’re asking
+If it’s a request, clearly state what you’re asking
 for.
 
 This one might be more subtle, but it helps a lot:
@@ -96,7 +96,7 @@ I sent to Y yesterday around Z titled T.”
 
 Even when you’re referring to something you wrote earlier
 in the same email unrolling the reference can help the reader a
-lot — they might be skipping around to find the parts most
+lot, they might be skipping around to find the parts most
 relevant to them and de-referencing instances of
 “that” places an unnecessary burden on
 ~~them~~ the reader.
@@ -109,14 +109,14 @@ help you too!
 
 Always start with the most important point.
 
-Structure for scanability — avoid sending a wall of text — use
-headings, bullet points and paragraph breaks — make it easy for
+Structure for scanability, avoid sending a wall of text, use
+headings, bullet points and paragraph breaks, make it easy for
 readers to dig into the parts they care about and safely skip
 the parts they don’t.
 
 Highlight the ask, if there is one.
 
-Make your emails reasonably atomic — even if you have multiple
+Make your emails reasonably atomic, even if you have multiple
 topics to discuss with the same recipient, still consider
 sending separate emails per topic.
 
@@ -145,7 +145,7 @@ that includes the concepts not only the words.
 
 For example if you’re describing a technical problem
 technical terms are fine, but it’s also important to
-highlight why they should care — by describing the impact of the
+highlight why they should care, by describing the impact of the
 problem on their world (customers, revenue, timelines etc.) and
 what actions they could or should take.
 
