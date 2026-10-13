@@ -3,17 +3,9 @@ import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import photo from "../assets/michal-parkola.jpg";
+import { reinventUrl, resolveReading } from "../data/reinvent-reading";
 
-const pickedSlugs = [
-    "using-claude-as-your-strategic-advisor",
-    "ai-adoption-at-demant-a-practitioners-perspective",
-    "limits-regeneration-meaning",
-];
-
-const allPosts = await getCollection("blog");
-const pickedPosts = pickedSlugs
-    .map((slug) => allPosts.find((p) => p.id === slug))
-    .filter(Boolean);
+const reading = resolveReading(await getCollection("blog"));
 ---
 
 <BaseLayout title="Michał Parkoła">
@@ -28,60 +20,45 @@ const pickedPosts = pickedSlugs
                 quality={85}
             />
             <p>
-                Hi! My name is Michał. I solve discovery and delivery problems
-                for software founders. I helped scale <a href="https://appsilon.com/"
-                    >Appsilon</a
-                > from 25 to 100 people in about 2 years. Now I'm running <a
-                    href="https://reinvent.michalparkola.com/">re_invent</a>, building <a
-                    href="http://tapestry.tools/">tapestry.tools</a>, and co-organizing <a
-                    href="https://kolektyw3.pl/">Kolektyw3</a>.
+                I’m Michał Parkoła. I help software and AI founders understand
+                customer problems and develop offers.
             </p>
-
-            <p class="cta">
-                <a href="/work-with-me/">Work with me →</a>
+            <p>
+                I helped <a href="https://appsilon.com/">Appsilon</a> grow from
+                25 to 100 people in about two years. I run <a href={reinventUrl}
+                    >re_invent</a
+                >, build <a href="http://tapestry.tools/">tapestry.tools</a>,
+                and co-organize <a href="https://kolektyw3.pl/">Kolektyw3</a> in
+                Warsaw.
             </p>
         </section>
 
         <section class="highlight">
+            <h2>Develop an offer based on customer conversations</h2>
             <p>
-                <strong>🌱 Struggling with lack of demand? Get a new client
-                in a promising niche in 30 days.</strong> With <a
-                    href="https://reinvent.michalparkola.com/">re_invent</a>, choose
-                a niche based on your authentic advantages, have 30 discovery
-                conversations, and turn those conversations into clients. Four
-                weeks of intensive work plus five months of group support. <a
-                    href="https://reinvent.michalparkola.com/">Details →</a>
+                re_invent is a workshop and coaching program for software and AI
+                founders who have paying clients and want a clear customer focus.
             </p>
-        </section>
-
-        <section class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    🌱 <a href="https://reinvent.michalparkola.com/">re_invent</a>:
-                    get a new client in a promising niche
-                </li>
-                <li>
-                    🧶 <a href="http://tapestry.tools/">tapestry.tools</a>: a suite
-                    of tools that turn ideas into actions and make progress visible
-                    across people and AI agents
-                </li>
-                <li>
-                    🏠 <a href="https://kolektyw3.pl/">Kolektyw3</a>: a community
-                    of founders and coworking space in Warsaw
-                </li>
-            </ul>
+            <p>
+                Choose a niche to research. Aim for 30 customer conversations in
+                30 days. Use what you learn to develop and test an offer.
+            </p>
+            <p>
+                Four weeks of workshops, followed by five months of group
+                support. The program is in Polish.
+            </p>
+            <p class="cta"><a href={reinventUrl}>Explore re_invent →</a></p>
         </section>
 
         <section class="writing">
-            <h2>Selected writing</h2>
+            <h2>Understand customers and develop your offer</h2>
+            <p>These articles explain ideas I use in re_invent.</p>
             <ul>
                 {
-                    pickedPosts.map((post) => (
+                    reading.map((item) => (
                         <li>
-                            <a href={`/blog/${post.id}/`}>
-                                {post.data.title}
-                            </a>
+                            <a href={`/blog/${item.post.id}/`}>{item.title}</a>{" "}
+                            — {item.summary}
                         </li>
                     ))
                 }
@@ -92,8 +69,17 @@ const pickedPosts = pickedSlugs
         </section>
 
         <section class="projects">
-            <h2>Other works</h2>
+            <h2>Other projects and published work</h2>
             <ul>
+                <li>
+                    🧶 <a href="http://tapestry.tools/">tapestry.tools</a>: a suite
+                    of tools that turn ideas into actions and make progress visible
+                    across people and AI agents
+                </li>
+                <li>
+                    🏠 <a href="https://kolektyw3.pl/">Kolektyw3</a>: a community
+                    of founders and coworking space in Warsaw
+                </li>
                 <li>
                     🌐 <a href="https://fluidcircle.net"> FluidCircle.net</a> an in-depth
                     guide to Scrum and other Agile topics (in Polish).
@@ -137,15 +123,6 @@ const pickedPosts = pickedSlugs
         text-decoration: underline;
     }
 
-    .intro .cta {
-        margin-top: 1.5rem;
-    }
-
-    .intro .cta a {
-        font-weight: 600;
-        font-size: 1.1rem;
-    }
-
     h2 {
         font-size: 1.5rem;
         color: #2c3e50;
@@ -160,8 +137,16 @@ const pickedPosts = pickedSlugs
         margin-bottom: 3rem;
     }
 
+    .highlight h2 {
+        margin-top: 0.5rem;
+    }
+
     .highlight p {
-        margin: 0;
+        margin: 0 0 0.75rem;
+    }
+
+    .highlight .cta a {
+        font-weight: 600;
     }
 
     .highlight a {

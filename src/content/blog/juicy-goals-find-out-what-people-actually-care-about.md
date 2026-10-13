@@ -1,8 +1,8 @@
 ---
 title: "🍑 Juicy Goals - find out what people actually care about"
-description: "If you want people to care you cannot be satisfied with dry, superficial goals. You must dig deeper to uncover the juicy goals that actually drive people's decisions. We meet a person who has a nee..."
+description: "Use questions to find the customer need behind a request and define the result that matters."
 pubDate: 2023-05-21T00:08:19.000Z
-updatedDate: 2024-05-21T23:49:52.000Z
+updatedDate: 2026-10-13T00:00:00.000Z
 ---
 If you want **people to** **care** you
 cannot be satisfied with dry, superficial goals.
@@ -123,3 +123,9 @@ and
 3. **so that** <deeper, hopefully juicy,
    intention that makes the request worth spending time and
    money>.
+
+---
+
+**Apply this to your business**
+
+In re_invent, you use customer conversations to find a problem worth solving and develop an offer. The program is in Polish. [Explore re_invent →](https://reinvent.michalparkola.com/)
