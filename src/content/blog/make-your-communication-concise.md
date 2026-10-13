@@ -7,7 +7,7 @@ heroImage: "../../assets/omt-concise-pyramid-principle.jpeg"
 ---
 *Use the pyramid principle*
 
-Last week [we covered the first C of good communication: Concrete](https://remoteleader.substack.com/p/good-communication-is-concrete)
+Last week [we covered the first C of good communication: Concrete](/blog/make-your-communication-concrete/)
 
 Today it’s time for the second C: **Concise**
 

@@ -1,13 +1,11 @@
 ---
 title: "😭 Three Pits of Team Despair"
-description: "Our purpose with Grow Together Academy is to help more great teams happen. Great teams that create and learn together. Great teams that get amazing results, without creating casualties. That is not..."
+description: "I want to help more great teams happen. Great teams that create and learn together. Great teams that get amazing results, without creating casualties. That is not always easy."
 pubDate: 2021-03-07T22:47:57.000Z
-updatedDate: 2021-10-09T19:59:32.000Z
+updatedDate: 2026-10-13T00:00:00.000Z
 heroImage: "../../assets/the-pit-2.jpg"
 ---
-Our purpose with
-[Grow Together Academy](http://growtogether.academy/)
-is to help more **great teams** happen.
+I want to help more **great teams** happen.
 
 Great teams that **create and learn together**.
 
@@ -100,12 +98,6 @@ move them.
    benefits with the team purpose. Or at least balance them.
 2. Create a smell of success. Make something good happen and
    generate evidence that good things are possible afterall.
-
-## Build your ladder, rung by rung
-
-In Grow Together Academy we practice most of those strategies to
-give you practical tools, not just for when everything is going
-smoothly, but also for more difficult situations.
 
 ## Share your story
 

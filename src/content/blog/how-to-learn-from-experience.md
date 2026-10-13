@@ -1,13 +1,10 @@
 ---
 title: "🧪 How to learn from experience?"
-description: "This post is a sneak peek at an idea from the upcoming book 'Grow Together: Gain Clarity and Momentum in Your Tech Leadership Career' At various points in the lifecycle of our projects we like to a..."
+description: "At various points in the lifecycle of our projects we like to ask about the lessons we have learned. Four questions help you turn an experience into a lesson you can use."
 pubDate: 2021-10-03T20:04:34.000Z
-updatedDate: 2021-10-09T20:00:34.000Z
+updatedDate: 2026-10-13T00:00:00.000Z
 heroImage: "../../assets/waterfall-experience-learning.jpg"
 ---
-**This post* is a sneak peek at an idea from*the upcoming book "[Grow Together: Gain Clarity and Momentum in Your Tech
-Leadership Career](http://growtogether.academy/book)"**
-
 At various points in the lifecycle of our projects we like to
 ask about the **lessons** we have
 **learned** from that project.
@@ -57,8 +54,3 @@ More information that can be useful:
    What happened then?
 
 What are you going to learn from your recent experience?
-
-*If you like this approach to lessons learned subscribe using
-the button in the bottom right of the window for more ideas
-from
-[the book](http://growtogether.academy/book).*

@@ -41,7 +41,7 @@ As [Caitlin Walker teaches us](https://cleanlanguage.co.uk/articles/articles/27
 Is your story really the most useful story you could be telling
 yourself about the situation?
 
-How would the story change if you [assumed positive intent](https://remoteleader.substack.com/p/be-careful-about-letting-worst-possible)?
+How would the story change if you [assumed positive intent](/blog/assume-positive-intent/)?
 
 Until next time,
 
