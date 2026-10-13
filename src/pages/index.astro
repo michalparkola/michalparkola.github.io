@@ -5,7 +5,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import photo from "../assets/michal-parkola.jpg";
 import { reinventUrl, resolveReading } from "../data/reinvent-reading";
 
-const reading = resolveReading(await getCollection("blog"));
+const allPosts = await getCollection("blog");
+const reading = resolveReading(allPosts);
+
+const pickedSlugs = [
+    "using-claude-as-your-strategic-advisor",
+    "ai-adoption-at-demant-a-practitioners-perspective",
+    "limits-regeneration-meaning",
+];
+const pickedPosts = pickedSlugs.map((slug) => {
+    const post = allPosts.find((p) => p.id === slug);
+    if (!post) throw new Error(`homepage: missing post "${slug}"`);
+    return post;
+});
 ---
 
 <BaseLayout title="Michał Parkoła">
@@ -51,13 +63,20 @@ const reading = resolveReading(await getCollection("blog"));
         </section>
 
         <section class="writing">
-            <h2>Articles about understanding what people want:</h2>
+            <h2>Writing</h2>
             <ul>
                 {
                     reading.map((item) => (
                         <li>
                             <a href={`/blog/${item.post.id}/`}>{item.title}</a>:{" "}
                             {item.summary}
+                        </li>
+                    ))
+                }
+                {
+                    pickedPosts.map((post) => (
+                        <li>
+                            <a href={`/blog/${post.id}/`}>{post.data.title}</a>
                         </li>
                     ))
                 }
