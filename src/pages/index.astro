@@ -10,14 +10,19 @@ const reading = resolveReading(await getCollection("blog"));
     <div class="page">
         <section class="intro">
             <p>
-                I’m Michał Parkoła. I help software and AI founders understand
-                customer problems and develop offers.
+                Hi, I’m Michał and I help technical founders understand customer
+                problems and develop offers.
             </p>
             <p>
-                I helped <a href="https://appsilon.com/">Appsilon</a> grow from
-                25 to 100 people in about two years. I run <a href={reinventUrl}
-                    >re_invent</a
-                >, build <a href="http://tapestry.tools/">tapestry.tools</a>,
+                I’ve worked in IT for 20 years. I grew teams at 9LivesData, Sabe,
+                and <a href="https://appsilon.com/">Appsilon</a>, where we went
+                from 25 to 100 people in about two years. I trained and advised
+                people at Gemius, XTB, and McKinsey, and ran projects for clients
+                from PZU to Apple. I founded Fluid Circle, People Skills for
+                Geeks, Grow Together Academy, Pimp My LinkedIn, and now re_invent.
+            </p>
+            <p>
+                I run <a href={reinventUrl}>re_invent</a>, build <a href="http://tapestry.tools/">tapestry.tools</a>,
                 and co-organize <a href="https://kolektyw3.pl/">Kolektyw3</a> in
                 Warsaw.
             </p>
@@ -36,8 +41,7 @@ const reading = resolveReading(await getCollection("blog"));
         </section>
 
         <section class="writing">
-            <h2>Understand customers and develop your offer</h2>
-            <p>These articles explain ideas I use in re_invent.</p>
+            <h2>Selected articles about understanding what people want:</h2>
             <ul>
                 {
                     reading.map((item) => (
