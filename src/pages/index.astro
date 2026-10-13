@@ -56,8 +56,8 @@ const reading = resolveReading(await getCollection("blog"));
                 {
                     reading.map((item) => (
                         <li>
-                            <a href={`/blog/${item.post.id}/`}>{item.title}</a>{" "}
-                            — {item.summary}
+                            <a href={`/blog/${item.post.id}/`}>{item.title}</a>:{" "}
+                            {item.summary}
                         </li>
                     ))
                 }

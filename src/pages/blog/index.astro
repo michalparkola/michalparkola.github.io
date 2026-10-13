@@ -1,10 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { resolveReading } from '../../data/reinvent-reading';
 
 const allPosts = await getCollection('blog');
-const reading = resolveReading(allPosts);
 
 const categories: Record<string, string[]> = {
   "AI": [
@@ -89,22 +87,10 @@ const grouped = Object.entries(categories).map(([name, slugs]) => ({
 }));
 ---
 
-<BaseLayout title="Writing, Michał Parkoła" description="Articles about customer needs, offers, AI, teams, and work by Michał Parkoła.">
-  <section class="start-here">
-    <h2>Start here: understand customers and develop your offer</h2>
-    <ul class="posts">
-      {reading.map((item) => (
-        <li>
-          <a href={`/blog/${item.post.id}/`}>{item.title}</a> — {item.summary}
-        </li>
-      ))}
-    </ul>
-  </section>
-
-  <h2 class="browse">Browse all articles</h2>
+<BaseLayout title="Writing, Michał Parkoła" description="Writing about delivery, teams and leadership in software.">
   {grouped.map((group) => (
     <section class="category">
-      <h3>{group.name}</h3>
+      <h2>{group.name}</h2>
       <ul class="posts">
         {group.posts.map((post) => (
           <li>
@@ -125,24 +111,6 @@ const grouped = Object.entries(categories).map(([name, slugs]) => ({
     font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 0.75rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
-  }
-
-  .start-here {
-    background: #f4f9ec;
-    border-left: 4px solid #5c8d11;
-    border-radius: 0 8px 8px 0;
-    padding: 1rem 1.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .start-here h2 {
-    margin-top: 0.5rem;
   }
 
   .posts {
