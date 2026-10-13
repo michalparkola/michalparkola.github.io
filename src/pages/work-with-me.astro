@@ -1,27 +1,193 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { reinventUrl } from "../data/reinvent-reading";
+import tomaszPhoto from "../assets/tomasz-szymanski.jpeg";
+import mariuszPhoto from "../assets/mariusz-gadarkowski.jpeg";
+import mateuszPhoto from "../assets/mateusz-eichler.jpeg";
 ---
 
 <BaseLayout
-    title="Contact Michał Parkoła"
-    description="Contact Michał Parkoła about re_invent, invitations, or other questions."
+    title="Work With Me, Michał Parkoła"
+    description="You've got the product and the team. Now you need delivery that works, managers who'll carry the torch, and a plan for AI. I can help."
 >
     <div class="page">
-        <h1>Contact Michał</h1>
-        <p>
-            For customer discovery and offer development, see
-            <a href={reinventUrl}>re_invent</a>. The program is in Polish.
+        <p class="lede">
+            You've got the product and the team. Now you need delivery that
+            works without you running it, managers who'll carry the torch, and a
+            clear plan for what AI changes in your operations. I help you get
+            there – by stepping in, coaching, or both.
         </p>
-        <p>
-            For other questions or invitations, email
-            <a href="mailto:michal.parkola@gmail.com">michal.parkola@gmail.com</a>.
-        </p>
-        <p>
-            You can find my background on
-            <a href="https://www.linkedin.com/in/michalparkola/">LinkedIn</a>
-            and my articles in the <a href="/blog/">writing archive</a>.
-        </p>
+
+        <section>
+            <h2>Who this is for</h2>
+            <ul>
+                <li>Software founders running companies with 5–50 people</li>
+                <li>
+                    You've had some success but you're experiencing growing
+                    pains or uncertainty about the future
+                </li>
+                <li>
+                    You're figuring out how AI fits into your team's workflow
+                    and operations
+                </li>
+            </ul>
+            <p>You might be dealing with:</p>
+            <ul>
+                <li>
+                    A team that grew but output didn't, something broke and
+                    you're not sure what
+                </li>
+                <li>
+                    New managers who need support you don't have time to give
+                </li>
+                <li>Delivery that depends on you being in the room</li>
+                <li>
+                    The question of what AI actually means for how your team
+                    works
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How I can help</h2>
+
+            <h3>Full-time or fractional management</h3>
+            <p>
+                I join your team full-time or 2–3 days/week as an operator. I
+                take ownership of delivery, develop your managers, and fix the
+                systems that aren't working, so you can focus on strategy and
+                growth instead of firefighting.
+            </p>
+
+            <h3>Coaching and facilitation</h3>
+            <p>
+                Focused engagements when you don't need someone inside the team
+                full-time, a specific problem to diagnose, a decision to think
+                through, a team that needs to get aligned. I help you and your
+                team find the best way forward, then get out of the way.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Background</h2>
+            <p>
+                15+ years in software, from system design through agile
+                coaching to senior engineering/delivery management with more
+                than one detour into entrepreneurship. I've grown teams, shipped
+                products and built the processes that support healthy companies.
+            </p>
+            <p>
+                I write about delivery, teams and leadership on <a href="/blog"
+                    >this blog</a
+                > and <a
+                    href="https://www.youtube.com/playlist?list=PLvzbhlS5zmdVwoIf6HtW3F0t6zEVmsp5N"
+                    >give talks on the subject</a
+                > since 2011.
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/michalparkola/"
+                    >Full background on LinkedIn →</a
+                >
+            </p>
+        </section>
+
+        <section class="testimonials">
+            <h2>What people say</h2>
+            <div class="video-grid">
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube.com/embed/Q66lrF22_cc"
+                        title="Testimonial, agile transformation"
+                        allowfullscreen
+                        loading="lazy"></iframe>
+                    <p class="caption">
+                        On leading an agile transformation together at a large
+                        corporation
+                    </p>
+                </div>
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube.com/embed/TXmvprnDfSU"
+                        title="Testimonial, engineering growth"
+                        allowfullscreen
+                        loading="lazy"></iframe>
+                    <p class="caption">
+                        An engineer I managed, grew from mid to staff level in
+                        about 2 years
+                    </p>
+                </div>
+            </div>
+
+            <div class="quotes">
+                <blockquote>
+                    <Image
+                        src={mariuszPhoto}
+                        alt="Mariusz Gądarkowski"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "Thanks to his support, we avoided common mistakes
+                            and applied new practices with full understanding of
+                            the principles and values behind them."
+                        </p>
+                        <cite>Mariusz Gądarkowski, CTO, Gemius</cite>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <Image
+                        src={tomaszPhoto}
+                        alt="Tomasz Szymański"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "Michał proved to be a very valuable product owner
+                            with very strict focus on providing business value.
+                            He is a perfect fit for a product-oriented company."
+                        </p>
+                        <cite>Tomasz Szymański, CEO, SoftwareMill</cite>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <Image
+                        src={mateuszPhoto}
+                        alt="Mateusz Eichler"
+                        class="quote-photo"
+                        width={48}
+                        format="webp"
+                        quality={85}
+                    />
+                    <div>
+                        <p>
+                            "His intelligence, creativity and drive allowed him
+                            to add value at all stages of product development:
+                            from business analysis to functional design as well
+                            as marketing and sales."
+                        </p>
+                        <cite
+                            >Mateusz Eichler, Director, Altkom Software &
+                            Consulting</cite
+                        >
+                    </div>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Let's talk</h2>
+            <p>
+                <a href="mailto:michal.parkola@gmail.com">Email me</a>
+                with a few sentences about your situation and we'll set up a free
+                intro call.
+            </p>
+        </section>
     </div>
 </BaseLayout>
 
@@ -32,7 +198,107 @@ import { reinventUrl } from "../data/reinvent-reading";
         margin-bottom: 0.5rem;
     }
 
+    .lede {
+        margin-bottom: 3rem;
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+
+    .quotes {
+        margin-top: 2rem;
+    }
+
+    .quotes blockquote {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .quote-photo {
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .quotes blockquote p {
+        margin: 0 0 0.25rem 0;
+        font-style: italic;
+    }
+
+    .quotes cite {
+        font-style: normal;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .video .caption {
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    @media (max-width: 600px) {
+        .video-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    ul {
+        padding-left: 1.5rem;
+    }
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+
     a {
         color: #5c8d11;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .cta {
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .cta h2 {
+        margin-top: 0;
+    }
+
+    .cta p {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
     }
 </style>
